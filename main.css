@@ -232,3 +232,17 @@ h6, .h6 {
   border: none;
   border-bottom: 1px solid #ffffff;
 }
+
+.footer-button {
+  padding: 2px 12px;
+
+  color: #5F259F;
+
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+}
+
+.footer-button:hover {
+  cursor: pointer;
+}
