@@ -41,9 +41,9 @@
       </div>
 
       <div class="site-header-text">
-        <h2 class="site-header-title">Dummy FE-00 Void-index Console</h2>
-        <h2 class="site-header-title">Dummy FE-00 Void-index Console</h2>
-        <h2 class="site-header-title">Dummy FE-00 Void-index Console</h2>
+        <h2 class="site-header-title">PASSION TO LEARN</h2>
+        <h2 class="site-header-title">CREATIVITY TO INVENT</h2>
+        <h2 class="site-header-title">COURAGE TO ACT</h2>
         <p class="lead site-description">A vessel for unwitting passengers.</p>
       </div>
 
