@@ -40,10 +40,12 @@
         <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-header-image.svg" class="header-image">
       </div>
 
-      <!-- <div class="blog-header">
-        <h1 class="blog-title">Dummy FE-00 Void-index Console</h1>
-        <p class="lead blog-description">A vessel for unwitting passengers.</p>
-      </div> -->
+      <div class="site-header-text">
+        <h2 class="site-header-title">Dummy FE-00 Void-index Console</h2>
+        <h2 class="site-header-title">Dummy FE-00 Void-index Console</h2>
+        <h2 class="site-header-title">Dummy FE-00 Void-index Console</h2>
+        <p class="lead site-description">A vessel for unwitting passengers.</p>
+      </div>
 
       <div class="row">
 
