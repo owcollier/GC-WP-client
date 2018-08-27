@@ -82,7 +82,7 @@
         <div class="col-7">
           <div class="sidebar-module sidebar-module-inset">
             <h4>About</h4>
-            <p>Greetings, this is your captain speaking. You are currently aboard a <em>dummy</em> front-end client, floating through the World Wide Void. Join me as I embark on a voyage through Angelfire necropolises and anomalous Wayback Machine distortions of digital spacetime in search of the honeycombed, crystalline data matrix heart rumored to exist at the very center of our web crawler hive-mind simulation.</p>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           </div>
           <div class="sidebar-module">
             <h4>Links to nowhere</h4>
