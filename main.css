@@ -108,11 +108,11 @@ h6, .h6 {
 }
 
 /* 
- * Galaxy photo in header
+ * Galaxy photo in header / brand icon svg
  */
 
 .header-image {
-  margin-top: 2em;
+  /* margin-top: 2em;
 
   background-image: url("./assets/images/unsplash-galaxy-image.jpg");
   background-size: cover;
@@ -120,7 +120,7 @@ h6, .h6 {
   background-color: #c93867;
   background-blend-mode: hue;
 
-  height: 20em;
+  height: 20em; */
 }
 
 
