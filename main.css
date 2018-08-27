@@ -34,8 +34,8 @@ h6, .h6 {
  */
 
 @media (min-width: 1200px) {
-  .mast-container {
-    width: 970px;
+  .container {
+    max-width: 1400px;
   }
 }
 
