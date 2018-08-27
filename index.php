@@ -98,7 +98,7 @@
 
     </div><!-- /.container -->
 
-    <footer class="blog-footer">
+    <footer class="footer">
       <span>const sayHelloBot = (encouragement) => { return (encouragement ? '&ltspan&gtHello world&lt/span&gt' : '&ltspan&gt...&lt/span&gt') };</span>
     </footer>
 
