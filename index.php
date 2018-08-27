@@ -26,7 +26,7 @@
         <nav class="navbar">
           <span class="navbar-brand">Gables Crest Preparatory</span>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-hamburger"></span>
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-hamburger-icon.svg" class="navbar-toggler-hamburger"></span>
           </button>
         </nav>
       </div>

@@ -60,19 +60,10 @@ h6, .h6 {
 .navbar-toggler-hamburger {
   color: #5F259F;
 
-  position: relative;
-  padding-left: 1.25em;
-}
+  height: 1.5em;
 
-.navbar-toggler-hamburger:before {
-  content: "";
-  position: absolute;
-  top: 0.25em;
-  left: 0;
-  width: 1.5em;
-  height: 1em;
-  border-top: 0.220em double #5F259F;
-  border-bottom: 0.055em solid #5F259F;
+  /* position: relative;
+  padding-left: 1.25em; */
 }
 
 /* Nav links */
