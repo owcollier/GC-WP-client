@@ -36,8 +36,8 @@
 
     <div class="container">
 
-      <div class="header-image">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-nav-brand.svg" class="navbar-brand-icon">
+      <div>
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-header-image.svg" class="header-image">
       </div>
 
       <!-- <div class="blog-header">

@@ -33,11 +33,11 @@ h6, .h6 {
  * Override Bootstrap's default container.
  */
 
-/* @media (min-width: 1200px) {
-  .container {
+@media (min-width: 1200px) {
+  .mast-container {
     width: 970px;
   }
-} */
+}
 
 
 /*
@@ -56,7 +56,7 @@ h6, .h6 {
 /* Masthead brand icon */
 
 .navbar-brand-icon {
-  height: 2em;
+  height: 2.5em;
 }
 
 /* Masthead hamburger icon */
@@ -112,6 +112,11 @@ h6, .h6 {
  */
 
 .header-image {
+
+  display: block;
+  margin: 7em auto;
+
+  height: 40em;
   /* margin-top: 2em;
 
   background-image: url("./assets/images/unsplash-galaxy-image.jpg");
