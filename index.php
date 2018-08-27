@@ -23,10 +23,10 @@
       <div class="container">
         <div class="collapse">
         </div>
-        <nav class="navbar navbar-light">
-          <span class="nav-logo">Coral Gables Preparatory</span>
+        <nav class="navbar">
+          <span class="navbar-brand">Coral Gables Preparatory</span>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-hamburger"></span>
           </button>
         </nav>
       </div>
