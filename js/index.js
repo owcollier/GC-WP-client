@@ -7,6 +7,7 @@ const dingDong = (event) => {
 
 const logEmail = (event) => {
   const email = $('#formEmail').val();
+  $('#formEmail').val('');
   console.log(email);
 };
 
