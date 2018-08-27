@@ -48,10 +48,18 @@ h6, .h6 {
   background-color: #ffffff;
   color: #5F259F;
 
-  padding: 2em 0;
+  padding: 1.5em 0;
   /* -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1); */
 }
+
+/* Masthead brand icon */
+
+.navbar-brand-icon {
+  height: 2em;
+}
+
+/* Masthead hamburger icon */
 
 .navbar-toggler {
   border: none;
