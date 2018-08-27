@@ -44,7 +44,7 @@
         <h2 class="site-header-title">PASSION TO LEARN</h2>
         <h2 class="site-header-title">CREATIVITY TO INVENT</h2>
         <h2 class="site-header-title">COURAGE TO ACT</h2>
-        <p class="lead site-description">A vessel for unwitting passengers.</p>
+        <p class="lead site-description">“The Crest” is a boutique college prep school serving 450 students in grades 6 through 12 with a curriculum focused on music, entertainment technology, and STEM. Students enroll in core, foundation, and elective courses infused with entrepreneurship and career education. Skills are strengthened by practical application and knowledge expanded in diverse learning environments.</p>
       </div>
 
       <div class="row">
