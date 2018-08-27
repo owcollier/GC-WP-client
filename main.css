@@ -6,6 +6,11 @@
   font-family: sans-serif;
   color: #ffffff;
   background-color: #5F259F;
+
+  background-image: url("./assets/images/unsplash-galaxy-image.jpg");
+  background-size: cover;
+
+  background-blend-mode: multiply;
 }
 
 a {
