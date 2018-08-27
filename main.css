@@ -112,9 +112,9 @@ h6, .h6 {
   background-size: cover;
 
   background-color: #c93867;
+  background-blend-mode: hue;
 
-  width: 100%;
-  height: 200px;
+  height: 20em;
 }
 
 
