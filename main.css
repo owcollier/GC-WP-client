@@ -221,3 +221,14 @@ h6, .h6 {
   background-color: #D0DF00;
 
 }
+
+.footer-input {
+  margin-left: 1.5em;
+  width: 20em;
+
+  color: #5F259F;
+
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
