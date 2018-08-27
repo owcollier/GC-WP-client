@@ -119,7 +119,7 @@ h6, .h6 {
 .header-image {
 
   display: block;
-  margin: 7em auto;
+  margin: 7em auto 10em auto;
 
   height: 40em;
   /* margin-top: 2em;
