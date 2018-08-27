@@ -1,3 +1,4 @@
+/* global $*/ 
 'use strict';
 
 const dingDong = (event) => {
@@ -5,12 +6,13 @@ const dingDong = (event) => {
 };
 
 const logEmail = (event) => {
-  console.log('heyo');
-}
+  const email = $('#formEmail').val();
+  console.log(email);
+};
 
 (function($) {
 	
-	// Wrapper function for intializing jQuery $
+// Wrapper function for intializing jQuery $
   console.log('hello world');
 
   $(document).on('click', '.blog-post-dinger', dingDong);
