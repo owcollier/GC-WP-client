@@ -47,7 +47,7 @@
 
       <div class="row">
 
-        <div class="col-sm-8 blog-main">
+        <div class="col blog-main">
 
           <div class="blog-post">
             <h2 class="blog-post-title">Sample category</h2>
@@ -79,7 +79,7 @@
           </div><!-- /.blog-post -->
         </div><!-- /.blog-main -->
 
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+        <div class="col-7">
           <div class="sidebar-module sidebar-module-inset">
             <h4>About</h4>
             <p>Greetings, this is your captain speaking. You are currently aboard a <em>dummy</em> front-end client, floating through the World Wide Void. Join me as I embark on a voyage through Angelfire necropolises and anomalous Wayback Machine distortions of digital spacetime in search of the honeycombed, crystalline data matrix heart rumored to exist at the very center of our web crawler hive-mind simulation.</p>
