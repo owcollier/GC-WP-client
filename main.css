@@ -7,6 +7,14 @@
   color: #555;
 }
 
+a {
+  color: #c93867;
+}
+
+a:hover {
+  color: #ff6a71;
+}
+
 h1, .h1,
 h2, .h2,
 h3, .h3,
