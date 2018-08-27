@@ -208,12 +208,16 @@ h6, .h6 {
  */
 
 .footer {
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+
   padding: 1.2em 0;
 
   color: #5F259F;
   background-color: #D0DF00;
 
-}
-.blog-footer p:last-child {
-  margin-bottom: 0;
 }
