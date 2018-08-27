@@ -6,8 +6,7 @@ const dingDong = (event) => {
 
 (function($) {
 	
-	// $ Works! You can test it with next line if you like
-  // console.log($);
+	// Wrapper function for intializing jQuery $
   console.log('hello world');
 
   $(document).on('click', '.blog-post-dinger', dingDong);
