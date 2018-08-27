@@ -97,7 +97,7 @@ h6, .h6 {
  */
 
 .site-header-text {
-  padding-top: 8em;
+  padding-top: 4em;
   padding-bottom: 8em;
 }
 .site-header-title {
@@ -107,6 +107,7 @@ h6, .h6 {
   line-height: 1;
 }
 .site-description {
+  padding-top: 1em;
   font-size: 36px;
 }
 
