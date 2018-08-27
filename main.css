@@ -28,7 +28,6 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #ffffff;
 }
@@ -102,10 +101,10 @@ h6, .h6 {
   padding-bottom: 20px;
 }
 .site-header-title {
-  margin-top: 30px;
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: normal;
+  line-height: 1;
 }
 .site-description {
   font-size: 20px;
