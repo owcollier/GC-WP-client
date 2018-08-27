@@ -33,6 +33,9 @@
 
     <div class="container">
 
+      <div class="header-image">
+      </div>
+
       <div class="blog-header">
         <h1 class="blog-title">Dummy FE-00 Void-index Console</h1>
         <p class="lead blog-description">A vessel for unwitting passengers.</p>
