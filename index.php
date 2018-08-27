@@ -19,14 +19,15 @@
 
   <body>
 
-    <div class="blog-masthead">
+    <div class="site-masthead">
       <div class="container">
-        <nav class="blog-nav">
-          <a class="blog-nav-item active" href="#">Hello</a>
-          <a class="blog-nav-item" href="#">This</a>
-          <a class="blog-nav-item" href="#">Is</a>
-          <a class="blog-nav-item" href="#">Your</a>
-          <a class="blog-nav-item" href="#">Captain</a>
+        <div class="collapse">
+        </div>
+        <nav class="navbar navbar-light">
+          <span class="nav-logo">Coral Gables Preparatory</span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </nav>
       </div>
     </div>
