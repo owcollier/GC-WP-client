@@ -49,6 +49,9 @@ h6, .h6 {
  */
 
 .site-masthead {
+  position: fixed;
+  width: 100%;
+  top: 0;
   background-color: #ffffff;
   color: #5F259F;
 
@@ -97,7 +100,7 @@ h6, .h6 {
  */
 
 .site-header-text {
-  padding-top: 4em;
+  padding-top: 3.5em;
   padding-bottom: 8em;
 }
 .site-header-title {
