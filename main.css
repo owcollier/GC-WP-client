@@ -36,7 +36,7 @@ h6, .h6 {
  */
 
 .blog-masthead {
-  background-color: #428bca;
+  background-color: #ff6a71;
   -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 }
@@ -154,10 +154,10 @@ h6, .h6 {
 
   cursor: pointer;
 
-  color: blue;
+  color: #c93867;
 
   margin: 20px 0;
-  border: 8px solid blue;
+  border: 8px solid #c93867;
 
   text-align: center;
 }
