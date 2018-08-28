@@ -49,8 +49,8 @@
 
       <div class="row">
 
-        <div class="col-5 content-ul">
-            <ul class="list-unstyled">
+        <div class="col-5 content-ul" id="left">
+            <ul class="list-unstyled" id="sidebar">
               <li><a>Teaching & Learning Environment</a></li>
               <li><a>Curriculum</a></li>
               <li><a>Graduation Model</a></li>
@@ -63,7 +63,7 @@
             </ul>
         </div>
 
-        <div class="col-7 content-main">
+        <div class="col-7 content-main" id="right">
           <div class="content-main-post">
             <h2 class="content-main-title">TEACHING & LEARNING ENVIRONMENT</h2>
             <div class="content-main-container">
