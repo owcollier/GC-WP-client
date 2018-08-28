@@ -191,6 +191,10 @@ h6, .h6 {
   line-height: 1.5;
 }
 
+.content-main > div:last-child {
+  margin-bottom: 6em;
+}
+
 .content-main-post {
   font-size: 24px;
   margin-bottom: 3em;
@@ -198,6 +202,7 @@ h6, .h6 {
 
   font-weight: 300;
 }
+
 .content-main-title {
   margin-top: 0.5em;
   font-size: 38px;
