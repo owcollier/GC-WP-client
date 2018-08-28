@@ -197,13 +197,21 @@ h6, .h6 {
   font-weight: 300;
 }
 .content-main-title {
-  margin-bottom: 1em;
   margin-top: 0.5em;
   font-size: 38px;
 }
 
 .list-unstyled {
   margin-top: 1em;
+}
+
+.content-main-container {
+  margin-top: 1em;
+}
+
+.ul-secondary li {
+  list-style: none;
+  padding-left: 1em;
 }
 
 
