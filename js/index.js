@@ -22,7 +22,7 @@ const logEmail = (event) => {
     const scroll = $(this).scrollTop();
     const height = $('#sidebar').height() + 'px';
 
-    if (scroll < $('#left').offset().top) {
+    if (scroll < $('#left').offset().top - 120) {
 
       $('#sidebar').css({
         'position': 'absolute',
@@ -41,7 +41,7 @@ const logEmail = (event) => {
 
       $('#sidebar').css({
         'position': 'fixed',
-        'top': '0',
+        'top': '120px',
         'height': height
       });
     }
