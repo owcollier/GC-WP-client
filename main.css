@@ -159,7 +159,7 @@ h6, .h6 {
 }
 
 .content-ul {
-
+  padding: 0;
 }
 
 /* Sidebar modules for boxing content */
@@ -217,9 +217,11 @@ h6, .h6 {
   left: 0;
   bottom: 0;
 
+  font-size: 18px;
+
   width: 100%;
 
-  padding: 1.2em 0;
+  padding: 0.8em 0;
 
   color: #5F259F;
   background-color: #D0DF00;
@@ -228,9 +230,13 @@ h6, .h6 {
 
 }
 
+.footer-form {
+  padding-right: 0;
+}
+
 .footer-input {
   margin-left: 1em;
-  width: 20em;
+  width: 14em;
 
   color: #5F259F;
 
