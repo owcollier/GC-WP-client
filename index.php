@@ -194,8 +194,10 @@
 
       <div class="container">
 
-        <div class="row">
-
+        <div class="row pseudo-footer-row">
+          <div class="col-5">ding</div>
+          <div class="col-3">ding</div>
+          <div class="col">dingDong</div>
         </div>
 
       </div>
