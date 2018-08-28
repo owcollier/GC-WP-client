@@ -224,7 +224,15 @@ h6, .h6 {
   width: 100%;
   background-color: #D0DF00;
 
-  height: 21.5em;
+  height: 21em;
+}
+
+.pseudo-footer-row {
+  padding-top: 2em;
+}
+
+.bottom-logo {
+  height: 11em;
 }
 
 /*

@@ -195,7 +195,9 @@
       <div class="container">
 
         <div class="row pseudo-footer-row">
-          <div class="col-5">ding</div>
+          <div class="col-5">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-bottom-logo.svg" class="bottom-logo">
+          </div>
           <div class="col-3">ding</div>
           <div class="col">dingDong</div>
         </div>
