@@ -231,8 +231,17 @@ h6, .h6 {
   padding-top: 2em;
 }
 
+.pseudo-footer-logo-column {
+  padding-top: 1em;
+}
+
 .bottom-logo {
   height: 11em;
+}
+
+.pseudo-footer-contact-column {
+  color: #5F259F;
+  font-size: 20px;
 }
 
 /*

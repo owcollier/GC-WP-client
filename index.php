@@ -195,11 +195,31 @@
       <div class="container">
 
         <div class="row pseudo-footer-row">
-          <div class="col-5">
+          <div class="col-5 pseudo-footer-logo-column">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-bottom-logo.svg" class="bottom-logo">
           </div>
-          <div class="col-3">ding</div>
-          <div class="col">dingDong</div>
+          <div class="col-3 pseudo-footer-contact-column">
+            <span>2000 Ponce De Leon Blvd</span>
+            <br>
+            <span>Coral Gables, FL 33134</span>
+            <br><br>
+            <span>www.gablescrest.org</span>
+            <br>
+            <span>+1 305 496 3237</span>
+            <br>
+            <span>info@gablescrest.org</span>
+            <br>
+            <span>@gablescrest</span>
+          </div>
+          <div class="col pseudo-footer-contact-column pseudo-footer-contact-column-secondary">
+            <span>Dr. Linda J. Eads</span>
+            <br>
+            <span>President / CEO</span>
+            <br><br>
+            <span>Larry Barrow</span>
+            <br>
+            <span>Foundation Chairperson</span>
+          </div>
         </div>
 
       </div>
