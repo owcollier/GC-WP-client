@@ -66,13 +66,9 @@
         </div>
 
         <div class="col-7 content-main">
-          <div class="blog-post">
-            <h2 class="blog-post-title">Sample category</h2>
-            <a class="blog-post-dinger">ding if you dare</a>
-          </div>
 
-          <div class="blog-post">
-            <h2 class="blog-post-title">Another category</h2>
+          <div class="content-main-post">
+            <h2 class="content-main-title">Another category</h2>
 
             <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
             <blockquote>
@@ -82,8 +78,8 @@
             <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
           </div>
 
-          <div class="blog-post">
-            <h2 class="blog-post-title">And another category</h2>
+          <div class="content-main-post">
+            <h2 class="content-man-title">And another category</h2>
 
             <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             <ul>
