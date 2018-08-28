@@ -107,7 +107,7 @@
           <span class="col">Opening Fall 2019.</span>
           <div class="col-7">
             <span>Sign up to our newsletter to get the latest updates:</span>
-            <input class="footer-input" type="text" id="formEmail" value="Enter your e-mail here" />
+            <input class="footer-input" type="text" id="formEmail" value="Enter your email here" />
             <button class="footer-button">Submit</button>
           </div>
         <div>

@@ -7,8 +7,10 @@
   color: #ffffff;
   background-color: #5F259F;
 
-  background-image: url("./assets/images/unsplash-galaxy-image.jpg");
+  background-image: url("./assets/images/alexis-brown-82988-unsplash_bw.jpg");
   background-size: cover;
+
+  background-attachment:fixed;
 
   background-blend-mode: multiply;
 }
