@@ -49,7 +49,19 @@
 
       <div class="row">
 
-        <div class="col blog-main">
+        <div class="col content-ul">
+
+            <ul class="list-unstyled">
+              <li><a>Teaching & Learning Environment</a></li>
+              <li><a>Curriculum</a></li>
+              <li><a>Graduation Model</a></li>
+              <li><a>Counseling Center</a></li>
+              <li><a>Student Life</a></li>
+              <li><a>Admissions Process & Criteria</a></li>
+              <li><a>Parent & Community Participation</a></li>
+              <li><a>Music & Entertainment Education Fund</a></li>
+              <li><a>Contact Information</a></li>
+            </ul>
 
           <div class="blog-post">
             <h2 class="blog-post-title">Sample category</h2>
@@ -81,7 +93,7 @@
           </div><!-- /.blog-post -->
         </div><!-- /.blog-main -->
 
-        <div class="col-7">
+        <div class="col-7 content-main">
           <div class="sidebar-module sidebar-module-inset">
             <h4>About</h4>
             <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>

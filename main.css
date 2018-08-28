@@ -140,10 +140,10 @@ h6, .h6 {
 
 
 /*
- * Main column and sidebar layout
+ * Content ul sidebar and main content column
  */
 
-.blog-main {
+.content-main {
   font-size: 18px;
   line-height: 1.5;
 }
