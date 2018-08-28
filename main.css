@@ -150,16 +150,20 @@ h6, .h6 {
 
 
 /*
- * Content ul sidebar and main content column
+ * Content ul sidebar
  */
-
-.content-main {
-  font-size: 18px;
-  line-height: 1.5;
-}
 
 .content-ul {
   padding: 0;
+
+  font-size: 24px;
+  border-top: 1px solid #D0DF00;
+
+  font-weight: 300;
+}
+
+.content-ul a:hover {
+  cursor: pointer;
 }
 
 /* Sidebar modules for boxing content */
@@ -179,14 +183,12 @@ h6, .h6 {
 } */
 
 /*
- * Content posts
+ * Main content column
  */
 
-.content-ul {
-  font-size: 24px;
-  border-top: 1px solid #D0DF00;
-
-  font-weight: 300;
+.content-main {
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .content-main-post {
@@ -213,6 +215,8 @@ h6, .h6 {
   list-style: none;
   padding-left: 1em;
 }
+
+/* Pseudo-footer */
 
 
 /*
