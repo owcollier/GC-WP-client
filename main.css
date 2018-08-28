@@ -172,15 +172,28 @@ h6, .h6 {
  * Content posts
  */
 
+.content-ul {
+  font-size: 24px;
+  border-top: 1px solid #D0DF00;
+
+  font-weight: 300;
+}
+
 .content-main-post {
   font-size: 24px;
-  margin-bottom: 60px;
+  margin-bottom: 3em;
   border-top: 1px solid #D0DF00;
+
+  font-weight: 300;
 }
 .content-main-title {
   margin-bottom: 1em;
   margin-top: 0.5em;
   font-size: 40px;
+}
+
+.list-unstyled {
+  margin-top: 1em;
 }
 
 
