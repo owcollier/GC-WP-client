@@ -50,7 +50,6 @@
       <div class="row">
 
         <div class="col-5 content-ul">
-
             <ul class="list-unstyled">
               <li><a>Teaching & Learning Environment</a></li>
               <li><a>Curriculum</a></li>
@@ -62,11 +61,9 @@
               <li><a>Music & Entertainment Education Fund</a></li>
               <li><a>Contact Information</a></li>
             </ul>
-
         </div>
 
         <div class="col-7 content-main">
-
           <div class="content-main-post">
             <h2 class="content-main-title">TEACHING & LEARNING ENVIRONMENT</h2>
             <ul class="ul-primary">
@@ -99,38 +96,77 @@
           </div>
 
           <div class="content-main-post">
-            <h2 class="content-main-title"></h2>
+            <h2 class="content-main-title">GRADUATION MODEL</h2>
             <ul class="ul-primary">
+              <li>Total credits reflect a high profile with universities</li>
+              <li>3 graduation options:
+                <ul class="ul-secondary">
+                  <li>3 years with a high school diploma</li>
+                  <li>4 years with a high school diploma and an AA Degree</li>
+                  <li>5 years with a high school diploma</li>
+                </ul>
+              </li>
+              <li>Diplomas: Superlative, Exemplary, and Distinction</li>
+              <li>Models exceed State of Florida requirements</li>
             </ul>
           </div>
 
           <div class="content-main-post">
-            <h2 class="content-main-title"></h2>
+            <h2 class="content-main-title">COUNSELING CENTER</h2>
             <ul class="ul-primary">
+              <li>Academic, college and career counselers</li>
+              <li>Success Coach</li>
+              <li>Psychologist and Rap Room</li>
+              <li>School Resource Officer</li>
             </ul>
           </div>
 
           <div class="content-main-post">
-            <h2 class="content-main-title"></h2>
+            <h2 class="content-main-title">STUDENT LIFE</h2>
             <ul class="ul-primary">
+              <li>Student Government</li>
+              <li>Honor Societies</li>
+              <li>Honor Court</li>
+              <li>Red Carpet Focus Group with Principal</li>
+              <li>School Strategic Planning Team</li>
+              <li>Student-run Jazz Club</li>
+              <li>Hobby Clubs</li>
+              <li>Athletics</li>
             </ul>
           </div>
 
           <div class="content-main-post">
-            <h2 class="content-main-title"></h2>
+            <h2 class="content-main-title">ADMISSION PROCESS & CRITERIA</h2>
             <ul class="ul-primary">
+              <li>Apply online</li>
+              <li>Review process by staff</li>
+              <li>Interview scheduled</li>
+              <li>Audition or portfolio presentation</li>
+              <li>Academic, Attendance, and Conduct Reports</li>
+              <li>References</li>
+              <li>Hobbies, Service, and Interests</li>
+              <li>SSAT</li>
             </ul>
           </div>
 
           <div class="content-main-post">
-            <h2 class="content-main-title"></h2>
+            <h2 class="content-main-title">PARENT & COMMUNITY PARTICIPATION</h2>
             <ul class="ul-primary">
+              <li>Parent Association</li>
+              <li>Parent Center: Workshops, Speakers, Events, Strategic Planning Team with head of school</li>
+              <li>Community partnerships with corporations, government, business, associations, organizations, and foundations</li>
+              <li>Mentors, Motivators, and Role Models</li>
             </ul>
           </div>
 
           <div class="content-main-post">
-            <h2 class="content-main-title"></h2>
+            <h2 class="content-main-title">MUSIC & ENTERTAINMENT EDUCATION FUND</h2>
+            <span class="content-main-subtitle">(Community Partner)</span>
             <ul class="ul-primary">
+              <li>Merit and need based scholarships available</li>
+              <li>Corporate partnership employee plan available</li>
+              <li>Staff discounts available</li>
+              <li>Sibling discounts available</li>
             </ul>
           </div>
 
@@ -139,24 +175,37 @@
     </div>
 
     <div class="pseudo-footer">
+
       <div class="container">
+
         <div class="row">
 
         </div>
+
       </div>
+
     </div>
 
     <footer class="footer">
 
       <div class="container">
+
         <div class="row">
+
           <span class="col-5">Opening Fall 2019.</span>
+
           <div class="col-7 footer-form">
+
             <span>Sign up to our newsletter to get the latest updates:</span>
+
             <input class="footer-input" type="text" id="formEmail" value="Enter your email here" />
+
             <button class="footer-button">Submit</button>
+
           </div>
+
         <div>
+
       <div>
 
     </footer>
