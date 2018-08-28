@@ -218,6 +218,14 @@ h6, .h6 {
 
 /* Pseudo-footer */
 
+.pseudo-footer {
+  display: block;
+
+  width: 100%;
+  background-color: #D0DF00;
+
+  height: 21.5em;
+}
 
 /*
  * Footer
