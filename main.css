@@ -4,23 +4,15 @@
 
  body {
   font-family: sans-serif;
-  color: #ffffff;
-  background-color: #5F259F;
+  color: #5F259F;
+  background-color: #D0DF00;
 
   background-image: url("./assets/images/alexis-brown-82988-unsplash_bw.jpg");
   background-size: cover;
 
   background-attachment:fixed;
 
-  background-blend-mode: multiply;
-}
-
-a {
-  color: #c93867;
-}
-
-a:hover {
-  color: #ff6a71;
+  background-blend-mode: soft-light;
 }
 
 h1, .h1,
@@ -64,8 +56,8 @@ h6, .h6 {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #ffffff;
-  color: #5F259F;
+  background-color: #5F259F;
+  color: #ffffff;
   z-index: 2000;
 
   padding: 1.5em 0;
@@ -86,7 +78,7 @@ h6, .h6 {
 }
 
 .navbar-toggler-hamburger {
-  color: #5F259F;
+  color: #ffffff;
 
   height: 1.5em;
 
@@ -164,6 +156,7 @@ h6, .h6 {
 
 .content-ul a:hover {
   cursor: pointer;
+  color: #D0DF00 !important;
 }
 
 /* Sidebar modules for boxing content */
