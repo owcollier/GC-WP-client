@@ -245,6 +245,10 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+.pseudo-footer-contact-column-secondary {
+  padding-left: 4em;
+}
+
 /*
  * Footer
  */
