@@ -68,7 +68,7 @@
         <div class="col-7 content-main">
 
           <div class="content-main-post">
-            <h2 class="content-main-title">Another category</h2>
+            <h2 class="content-main-title">TEACHING & LEARNING ENVIRONMENT</h2>
 
             <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
             <blockquote>
