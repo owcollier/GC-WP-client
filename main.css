@@ -148,6 +148,10 @@ h6, .h6 {
   line-height: 1.5;
 }
 
+.content-ul {
+
+}
+
 /* Sidebar modules for boxing content */
 /* .sidebar-module {
   padding: 15px;
@@ -164,47 +168,19 @@ h6, .h6 {
   margin-bottom: 0;
 } */
 
-
-/* Pagination */
-.pager {
-  margin-bottom: 60px;
-  text-align: left;
-}
-.pager > li > a {
-  width: 140px;
-  padding: 10px 20px;
-  text-align: center;
-  border-radius: 30px;
-}
-
-
 /*
- * Blog posts
+ * Content posts
  */
 
-.blog-post {
+.content-main-post {
+  font-size: 24px;
   margin-bottom: 60px;
+  border-top: 1px solid #D0DF00;
 }
-.blog-post-title {
-  margin-bottom: 5px;
+.content-main-title {
+  margin-bottom: 1em;
+  margin-top: 0.5em;
   font-size: 40px;
-}
-.blog-post-meta {
-  margin-bottom: 20px;
-  color: #999;
-}
-
-.blog-post-dinger {
-  display: block;
-
-  cursor: pointer;
-
-  color: #c93867;
-
-  margin: 20px 0;
-  border: 8px solid #c93867;
-
-  text-align: center;
 }
 
 
