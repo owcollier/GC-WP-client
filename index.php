@@ -79,7 +79,7 @@
           </div>
 
           <div class="content-main-post">
-            <h2 class="content-main-title">And another category</h2>
+            <h2 class="content-main-title">CURRICULUM</h2>
 
             <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             <ul>
@@ -94,6 +94,14 @@
 
       </div>
 
+    </div>
+
+    <div class="pseudo-footer">
+      <div class="container">
+        <div class="row">
+
+        </div>
+      </div>
     </div>
 
     <footer class="footer">

@@ -214,6 +214,8 @@ h6, .h6 {
   color: #5F259F;
   background-color: #D0DF00;
 
+  border-top: 1px solid #5F259F;
+
 }
 
 .footer-input {
