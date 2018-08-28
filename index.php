@@ -63,10 +63,13 @@
               <li><a>Contact Information</a></li>
             </ul>
 
+        </div>
+
+        <div class="col-7 content-main">
           <div class="blog-post">
             <h2 class="blog-post-title">Sample category</h2>
             <a class="blog-post-dinger">ding if you dare</a>
-          </div><!-- /.blog-post -->
+          </div>
 
           <div class="blog-post">
             <h2 class="blog-post-title">Another category</h2>
@@ -77,7 +80,7 @@
             </blockquote>
             <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
             <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-          </div><!-- /.blog-post -->
+          </div>
 
           <div class="blog-post">
             <h2 class="blog-post-title">And another category</h2>
@@ -90,27 +93,12 @@
             </ul>
             <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
             <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-          </div><!-- /.blog-post -->
-        </div><!-- /.blog-main -->
-
-        <div class="col-7 content-main">
-          <div class="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           </div>
-          <div class="sidebar-module">
-            <h4>Links to nowhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">Destination 1</a></li>
-              <li><a href="#">Destination 2</a></li>
-              <li><a href="#">Destination 3</a></li>
-            </ol>
-          </div>
-        </div><!-- /.blog-sidebar -->
+        </div>
 
-      </div><!-- /.row -->
+      </div>
 
-    </div><!-- /.container -->
+    </div>
 
     <footer class="footer">
 
