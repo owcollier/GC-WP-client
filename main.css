@@ -45,6 +45,16 @@ h6, .h6 {
   }
 }
 
+/* Override on certain column classes for desired layout, padding and margin adjustments */
+
+/* .col {
+  margin-right: 30px;
+}
+
+.col-7 {
+  padding-left: 30px;
+} */
+
 
 /*
  * Masthead for nav
@@ -219,7 +229,7 @@ h6, .h6 {
 }
 
 .footer-input {
-  margin-left: 1.5em;
+  margin-left: 1em;
   width: 20em;
 
   color: #5F259F;

@@ -49,7 +49,7 @@
 
       <div class="row">
 
-        <div class="col content-ul">
+        <div class="col-5 content-ul">
 
             <ul class="list-unstyled">
               <li><a>Teaching & Learning Environment</a></li>
@@ -108,7 +108,7 @@
 
       <div class="container">
         <div class="row">
-          <span class="col">Opening Fall 2019.</span>
+          <span class="col-5">Opening Fall 2019.</span>
           <div class="col-7">
             <span>Sign up to our newsletter to get the latest updates:</span>
             <input class="footer-input" type="text" id="formEmail" value="Enter your email here" />
