@@ -279,6 +279,10 @@ h6, .h6 {
 
 }
 
+.footer-row {
+  align-items: center;
+}
+
 .footer-form {
   padding-right: 0;
 }
@@ -324,6 +328,16 @@ h6, .h6 {
   .navbar-toggler {
     display: none;
   }
+
+}
+
+/* For the MailChimp form */
+
+@media (max-width: 1379.85px) {
+
+  /* .footer-row {
+    flex-direction: column;
+  } */
 
 }
 

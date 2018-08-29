@@ -234,10 +234,10 @@
 
       <div class="container">
 
-        <div class="row">
+        <div class="row footer-row">
 
-          <span class="col-5">Opening Fall 2019.</span>
-          <div class="col-7 footer-form">
+          <span class="col-xl-5 col-3">Opening Fall 2019.</span>
+          <div class="col-xl-7 col-9 footer-form">
             <?php echo do_shortcode('[mc4wp_form id="23"]'); ?>
           </div>
 
