@@ -46,8 +46,8 @@ const handleHeader = () => {
   const scroll = $(this).scrollTop();
   
   if (scroll < $('#headerLogo').offset().top) {
-
-    console.log('hey');
+    $('#masthead').addClass('hidden');
+    console.log('hey', $('#headerLogo').offset().top);
   }
 };
 
