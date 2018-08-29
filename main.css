@@ -416,7 +416,16 @@ h6, .h6 {
   .footer-row {
     flex-direction: column;
     align-items: flex-start;
-    height: 5.25em;
+  }
+
+  .footer-opening, .footer-form {
+    min-height: 36px;
+  }
+
+  /* footer no longer fixed */
+
+  .footer {
+    position: static;
   }
 
 
@@ -445,10 +454,18 @@ h6, .h6 {
     height: 22em;
   }
 
-  /* footer no longer fixed */
+  /* footer content *needs* to scale down at this breakpoint */
 
   .footer {
-    position: static;
+    font-size: 14px;
+  }
+
+  .footer-opening, .footer-form {
+    min-height: 24px;
+  }
+
+  .footer-form {
+    margin-bottom: 0.5em;
   }
 
 }

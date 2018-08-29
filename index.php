@@ -236,7 +236,7 @@
 
         <div class="row footer-row">
 
-          <span class="col-xl-5 col-md-3 col">Opening Fall 2019.</span>
+          <div class="col-xl-5 col-md-3 col footer-opening">Opening Fall 2019.</div>
           <div class="col-xl-7 col footer-form">
             <?php echo do_shortcode('[mc4wp_form id="23"]'); ?>
           </div>
