@@ -24,9 +24,12 @@
         <div class="collapse">
         </div>
         <nav class="navbar">
-          <span class="navbar-brand">
-            <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-nav-brand.svg" class="navbar-brand-icon">
-          </span>
+          <div class="navbar-brand">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-nav-brand.svg" class="navbar-brand-logo">
+          </div>
+          <div class="navbar-brand-mobile">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-nav-brand-mobile.svg" class="navbar-brand-logo-mobile">
+          </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-hamburger-icon.svg" class="navbar-toggler-hamburger">
           </button>
