@@ -26,17 +26,6 @@ h6, .h6 {
   color: #5F259F;
 }
 
-
-/*
- * Override Bootstrap's default container.
- */
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1400px;
-  }
-}
-
 /* Hidden class for jQuery stuff */
 
 .hidden {
@@ -309,9 +298,33 @@ h6, .h6 {
 
 /* custom media query styles */
 
-/* Smaller than Large Device width */
+/* max-width media queries */
+
+/* Large devices (desktops, less than 1200px */
+
+@media (min-width: 1200px) {
+
+  .container {
+    max-width: 1400px;
+  }
+
+}
 
 @media (max-width: 1199.98px) {
+
+  /* masthead */
+
+  .site-masthead {
+    top: 0;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+    margin-right: 0;
+  }
+
+
+  /* content section sidebar and main content column */
 
   .content-ul {
     display: none;
@@ -321,4 +334,38 @@ h6, .h6 {
     justify-content: center;
   }
 
- }
+}
+
+ /* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+
+  /* container max-width override */
+
+  .container {
+    max-width: 992px;
+  }
+
+  /* masthead */
+
+    .navbar-brand {
+      font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+    .container {
+      max-width: 768px;
+    }
+    
+}
+
+@media (max-width: 575.98px) {
+
+    .container {
+      max-width: 576px;
+    }
+    
+}
