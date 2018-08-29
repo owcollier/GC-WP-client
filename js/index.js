@@ -11,9 +11,7 @@ const logEmail = (event) => {
   console.log(email);
 };
 
-const scrollSidebar = () => {
-
-  
+const handleSidebar = () => {
 
   const sidebarLength = $('#left').height() - $('#sidebar').height() + $('#left').offset().top;
   const scroll = $(this).scrollTop();
@@ -44,9 +42,19 @@ const scrollSidebar = () => {
   }
 };
 
+const handleHeader = () => {
+  console.log('heyo');
+};
+
+const handleScroll = (handleSidebar, handleHeader) => {
+  handleSidebar();
+  handleHeader();
+};
+
 (function($) {
 
-  $(window).on('scroll', scrollSidebar);
+  $(window).on('scroll', handleSidebar);
+  $(window).on('scroll', handleHeader);
 
   $(document).on('click', '.footer-button', logEmail);
 	

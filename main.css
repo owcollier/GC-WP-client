@@ -37,16 +37,11 @@ h6, .h6 {
   }
 }
 
-/* Override on certain column classes for desired layout, padding and margin adjustments */
+/* Hidden class for jQuery stuff */
 
-/* .col {
-  margin-right: 30px;
+.hidden {
+  display: none;
 }
-
-.col-7 {
-  padding-left: 30px;
-} */
-
 
 /*
  * Masthead for nav

@@ -19,7 +19,7 @@
 
   <body>
 
-    <div class="site-masthead" id="masthead">
+    <div class="site-masthead" id="masthead" >
       <div class="container">
         <div class="collapse">
         </div>
