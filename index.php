@@ -199,10 +199,10 @@
       <div class="container">
 
         <div class="row pseudo-footer-row">
-          <div class="col col-sm-5 pseudo-footer-logo-column">
+          <div class="col-5 pseudo-footer-logo-column">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-bottom-logo.svg" class="bottom-logo">
           </div>
-          <div class="col col-sm-7 row mobile-flex">
+          <div class="col row mobile-flex">
             <div class="col pseudo-footer-contact-column pseudo-footer-contact-column-primary">
               <span>2000 Ponce De Leon Blvd</span>
               <br>
