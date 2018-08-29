@@ -265,10 +265,6 @@ h6, .h6 {
   padding-left: 0;
 }
 
-.pseudo-footer-contact-column-secondary {
-  padding-right: 0;
-}
-
 /*
  * Footer
  */
@@ -580,7 +576,6 @@ h6, .h6 {
   /* pseudo-footer content columns can lose the padding on either side and a bottom padding is added for primary column */
 
   .pseudo-footer-contact-column-primary {
-    padding-right: 0;
     padding-bottom: 8em;
   }
   
