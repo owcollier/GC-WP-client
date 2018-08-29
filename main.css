@@ -363,12 +363,23 @@ h6, .h6 {
       font-size: 0.8rem;
     }
 
+  /* hero logo */
+
+  .header-image {
+    height: 30em;
+  }
 }
 
 @media (max-width: 759.98px) {
 
   .navbar-brand {
     font-size: 0.7rem;
+  }
+
+  /* hero logo */
+
+  .header-image {
+    height: 22em;
   }
 
 }
