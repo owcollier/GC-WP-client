@@ -199,10 +199,10 @@
       <div class="container">
 
         <div class="row pseudo-footer-row">
-          <div class="col-5 pseudo-footer-logo-column">
+          <div class="col-4 col-sm-5 pseudo-footer-logo-column">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-bottom-logo.svg" class="bottom-logo">
           </div>
-          <div class="col-3 pseudo-footer-contact-column">
+          <div class="col-4 col-sm-3 pseudo-footer-contact-column">
             <span>2000 Ponce De Leon Blvd</span>
             <br>
             <span>Coral Gables, FL 33134</span>

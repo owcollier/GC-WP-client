@@ -244,6 +244,11 @@ h6, .h6 {
 
 .bottom-logo {
   height: 11em;
+
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pseudo-footer-contact-column {
@@ -409,6 +414,12 @@ h6, .h6 {
     line-height: 1.25;
   }
 
+  /* pseudo-footer secondary content column can part with some of its left padding now */
+
+  .pseudo-footer-contact-column-secondary {
+    padding-left: 2em;
+  }
+
 }
 
 @media (max-width: 821.98px) {
@@ -420,6 +431,13 @@ h6, .h6 {
 
   .footer-opening, .footer-form {
     min-height: 36px;
+  }
+
+  /* pseudo-footer bottom margin can go once footer becomes static, size will adjust slightly*/
+
+  .pseudo-footer {
+    height: 18em;
+    margin-bottom: 0;
   }
 
   /* footer no longer fixed */
@@ -452,6 +470,20 @@ h6, .h6 {
 
   .header-image {
     height: 22em;
+  }
+
+  /* pseudo footer content needs to scale down at this breakpoint */
+
+  .pseudo-footer {
+    height: 16em;
+  }
+
+  .bottom-logo {
+    height: 8em;
+  }
+
+  .pseudo-footer-contact-column {
+    font-size: 14px;
   }
 
   /* footer content *needs* to scale down at this breakpoint */
@@ -494,6 +526,18 @@ h6, .h6 {
 
   .navbar-toggler-hamburger {
     height: 1.25em;
+  }
+
+  /* pseudo-footer image can scale even smaller */
+
+  .bottom-logo {
+    height: 6em;
+  }
+
+  /* pseudo-footer left padding on secondary column can finally revert to default size */
+
+  .pseudo-footer-contact-column-secondary {
+    padding-left: 15px;
   }
 /* 
   h2 {
