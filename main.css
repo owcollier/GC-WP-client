@@ -388,21 +388,22 @@ h6, .h6 {
 
 @media (max-width: 767.98px) {
 
-    .container {
-      max-width: 768px;
-    }
-    
-}
+  .container {
+    max-width: 768px;
+  }
 
-@media (max-width: 659.98px) {
+  .site-masthead {
+    padding: 1em 0;
+  }
 
   .navbar-brand-logo {
     height: 1em;
   }
-
+  
   .navbar-toggler {
     font-size: 1rem;
   }
+    
 }
 
 @media (max-width: 575.98px) {
