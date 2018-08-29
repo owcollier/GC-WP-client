@@ -43,11 +43,22 @@ const handleSidebar = () => {
 };
 
 const handleHeader = () => {
+
   const scroll = $(this).scrollTop();
+  const logoOffset = $('#headerLogo').offset().top;
+  const logoHeight = $('#headerLogo').height();
   
-  if (scroll < $('#headerLogo').offset().top) {
-    // $('#masthead').addClass('hidden');
+  if (scroll < logoOffset + (logoHeight - 160)) {
+
+    $('#masthead').removeClass('masthead-show');
+    $('#masthead').addClass('masthead-hidden');
     console.log('hey', $('#headerLogo').offset().top);
+
+  } else if (scroll > logoOffset + (logoHeight - 160)) {
+
+    $('#masthead').removeClass('masthead-hidden');
+    $('#masthead').addClass('masthead-show');
+
   }
 };
 

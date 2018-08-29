@@ -61,7 +61,7 @@ h6, .h6 {
 }
 
 .masthead-hidden {
-  position: relative;
+  position: absolute;
   top: -10em;
 }
 
