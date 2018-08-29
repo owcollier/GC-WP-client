@@ -51,12 +51,10 @@ const handleHeader = () => {
   if (scroll < logoOffset + (logoHeight - 160)) {
 
     $('#masthead').removeClass('masthead-show');
-    $('#masthead').addClass('masthead-hidden');
     console.log('hey', $('#headerLogo').offset().top);
 
   } else if (scroll > logoOffset + (logoHeight - 160)) {
 
-    $('#masthead').removeClass('masthead-hidden');
     $('#masthead').addClass('masthead-show');
 
   }
