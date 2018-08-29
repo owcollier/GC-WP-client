@@ -2,6 +2,10 @@
  * Globals
  */
 
+ html, body {
+  overflow-x: hidden;
+ }
+
  body {
   font-family: sans-serif;
   color: #5F259F;
@@ -257,8 +261,12 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+.pseudo-footer-contact-column-primary {
+  padding-left: 0;
+}
+
 .pseudo-footer-contact-column-secondary {
-  padding-left: 4em;
+  padding-right: 0;
 }
 
 /*
@@ -415,12 +423,6 @@ h6, .h6 {
     line-height: 1.25;
   }
 
-  /* pseudo-footer secondary content column can part with some of its left padding now */
-
-  .pseudo-footer-contact-column-secondary {
-    padding-left: 2em;
-  }
-
 }
 
 @media (max-width: 821.98px) {
@@ -565,10 +567,21 @@ h6, .h6 {
     height: 6em;
   }
 
-  /* pseudo-footer left padding on secondary column can finally revert to default size */
+  /* pseudo-footer content columns can lose the padding on either side and a bottom padding is added for primary column */
+
+  .pseudo-footer-contact-column-primary {
+    padding-right: 0;
+    padding-bottom: 15px;
+  }
 
   .pseudo-footer-contact-column-secondary {
-    padding-left: 15px;
+    padding-left: 0;
   }
-    
+
+}
+
+/* custom breakpoint for mobile, specifically content in footers */
+
+@media (max-width: 489.98px) {
+
 }
