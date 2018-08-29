@@ -563,7 +563,9 @@ h6, .h6 {
 
 /* custom breakpoint for mobile, specifically content in footers */
 
-@media (max-width: 444.98px) {
+@media (max-width: 489.98px) {
+
+  /* pseudo-footer size must increase to accomodate new vertical layout for contact info content */
 
   .pseudo-footer {
     height: 18em;
@@ -571,7 +573,7 @@ h6, .h6 {
 
   /* pseudo-footer content columns can now stack vertically */
 
-  .mobile-flex{
+  .pseudo-footer-flex{
     flex-direction: column;
   }
 
@@ -585,5 +587,9 @@ h6, .h6 {
   .pseudo-footer-contact-column-secondary {
     padding-left: 0;
   }
+
+  /* custom flex-box behavior needs to trigger in footer, size of footer must increase to accomodate layout */
+
+
 
 }
