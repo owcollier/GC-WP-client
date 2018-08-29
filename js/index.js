@@ -5,11 +5,11 @@
 //   console.log('DONG!');
 // };
 
-const logEmail = (event) => {
-  const email = $('#formEmail').val();
-  $('#formEmail').val('');
-  console.log(email);
-};
+// const logEmail = (event) => {
+//   const email = $('#formEmail').val();
+//   $('#formEmail').val('');
+//   console.log(email);
+// };
 
 const handleSidebar = () => {
 
@@ -84,6 +84,6 @@ const handleResize = () => {
 
   $(window).on('resize', handleResize);
 
-  $(document).on('click', '.footer-button', logEmail);
+  // $(document).on('click', '.footer-button', logEmail);
 	
 })( jQuery );

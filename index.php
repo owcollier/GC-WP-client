@@ -238,9 +238,7 @@
 
           <span class="col-5">Opening Fall 2019.</span>
           <div class="col-7 footer-form">
-            <span>Sign up to our newsletter to get the latest updates:</span>
-            <input class="footer-input" type="text" id="formEmail" value="Enter your email here" />
-            <button class="footer-button">Submit</button>
+            <?php echo do_shortcode('[mc4wp_form id="23"]'); ?>
           </div>
 
         <div>
