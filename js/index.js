@@ -60,11 +60,6 @@ const handleHeader = () => {
   }
 };
 
-const handleScroll = (handleSidebar, handleHeader) => {
-  handleSidebar();
-  handleHeader();
-};
-
 const handleResize = () => {
 
   const scroll = $(this).scrollTop();
