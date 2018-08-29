@@ -43,7 +43,12 @@ const handleSidebar = () => {
 };
 
 const handleHeader = () => {
-  console.log('heyo');
+  const scroll = $(this).scrollTop();
+  
+  if (scroll < $('#headerLogo').offset().top) {
+
+    console.log('hey');
+  }
 };
 
 const handleScroll = (handleSidebar, handleHeader) => {
