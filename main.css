@@ -400,6 +400,7 @@ h6, .h6 {
 
   .site-header-title {
     font-size: 48px;
+    line-height: 1.1;
   }
 
   /* header text paragraph font size decreases */
@@ -456,6 +457,8 @@ h6, .h6 {
     max-width: 768px;
   }
 
+  /* masthead scaling down */
+
   .site-masthead {
     padding: 1em 0;
   }
@@ -470,6 +473,28 @@ h6, .h6 {
 
   .header-image {
     height: 22em;
+  }
+
+  /* font sizes scaling in main content column */
+
+  .site-header-title {
+    font-size: 36px;
+  }
+
+  .site-description {
+    font-size: 20px;
+  }
+
+  .content-main-title {
+    font-size: 24px;
+  }
+
+  .content-main-post {
+    font-size: 18px;
+  }
+
+  .ul-secondary li {
+    line-height: 1.25;
   }
 
   /* pseudo footer content needs to scale down at this breakpoint */
@@ -508,6 +533,8 @@ h6, .h6 {
     max-width: 576px;
   }
 
+  /* switching out larger masthead brand logo for smaller version */
+
   .navbar-brand-large {
     display: none;
   }
@@ -524,9 +551,13 @@ h6, .h6 {
     display: block;
   }
 
+  /* hamburger icon scaling down */
+
   .navbar-toggler-hamburger {
     height: 1.25em;
   }
+
+  /* font */
 
   /* pseudo-footer image can scale even smaller */
 
@@ -539,17 +570,5 @@ h6, .h6 {
   .pseudo-footer-contact-column-secondary {
     padding-left: 15px;
   }
-/* 
-  h2 {
-    font-size: 10px !important;
-  }
-
-  .pseudo-footer-contact-column {
-    font-size: 10px;
-  }
-
-  .footer {
-    font-size: 10px;
-  } */
     
 }
