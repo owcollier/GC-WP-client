@@ -201,7 +201,7 @@ h6, .h6 {
 
 .content-main-title {
   margin-top: 0.5em;
-  font-size: 38px;
+  font-size: 36px;
 }
 
 .list-unstyled {
@@ -366,43 +366,44 @@ h6, .h6 {
     max-width: 992px;
   }
 
+  /* masthead brand logo size decreases */
+
   .navbar-brand-logo {
     height: 1.5em;
   }
 
-  /* hero logo */
+  /* header logo size decreases */
 
   .header-image {
     height: 30em;
   }
 
-  /* header text h2 */
+  /* header text bottom padding decreases */
+
+  .site-header-text {
+    padding-bottom: 3em;
+    line-height: 1.25;
+  }
+
+  /* header text h2 font size decreases */
 
   .site-header-title {
     font-size: 48px;
   }
 
-  /* header text paragraph */
+  /* header text paragraph font size decreases */
 
   .site-description {
     font-size: 24px;
   }
 
+  /* main column text line height decreases */
+
+  .content-main {
+    line-height: 1.25;
+  }
+
 }
-
-/* @media (max-width: 759.98px) {
-
-  .navbar-brand-logo {
-    height: 1.5em;
-  }
-
-  /* hero logo */
-
-  /* .header-image {
-    height: 22em;
-  }
-
-} */
 
 @media (max-width: 767.98px) {
 
