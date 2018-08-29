@@ -24,10 +24,10 @@
         <div class="collapse">
         </div>
         <nav class="navbar">
-          <div class="navbar-brand">
+          <div class="navbar-brand navbar-brand-large">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-nav-brand.svg" class="navbar-brand-logo">
           </div>
-          <div class="navbar-brand-mobile">
+          <div class="navbar-brand navbar-brand-mobile">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-nav-brand-mobile.svg" class="navbar-brand-logo-mobile">
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
