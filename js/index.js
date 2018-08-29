@@ -12,7 +12,10 @@ const logEmail = (event) => {
 };
 
 const scrollSidebar = () => {
-  const length = $('#left').height() - $('#sidebar').height() + $('#left').offset().top;
+
+  
+
+  const sidebarLength = $('#left').height() - $('#sidebar').height() + $('#left').offset().top;
   const scroll = $(this).scrollTop();
   const height = $('#sidebar').height() + 'px';
 
@@ -23,7 +26,7 @@ const scrollSidebar = () => {
       'top': '0'
     });
 
-  } else if (scroll > length) {
+  } else if (scroll > sidebarLength) {
 
     $('#sidebar').css({
       'position': 'absolute',

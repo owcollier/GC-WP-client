@@ -40,7 +40,7 @@
         <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-header-image.svg" class="header-image" id="headerLogo">
       </div>
 
-      <div class="site-header-text">
+      <div class="site-header-text" id="headerText">
         <h2 class="site-header-title">PASSION TO LEARN</h2>
         <h2 class="site-header-title">CREATIVITY TO INVENT</h2>
         <h2 class="site-header-title">COURAGE TO ACT</h2>
