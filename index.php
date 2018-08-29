@@ -19,7 +19,7 @@
 
   <body>
 
-    <div class="site-masthead">
+    <div class="site-masthead" id="masthead">
       <div class="container">
         <div class="collapse">
         </div>
@@ -37,7 +37,7 @@
     <div class="container">
 
       <div>
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-header-image.svg" class="header-image">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-header-image.svg" class="header-image" id="headerLogo">
       </div>
 
       <div class="site-header-text">
