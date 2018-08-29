@@ -306,3 +306,19 @@ h6, .h6 {
 .footer-button:hover {
   cursor: pointer;
 }
+
+/* custom media query styles */
+
+/* Smaller than Large Device width */
+
+@media (max-width: 1199.98px) {
+
+  .content-ul {
+    display: none;
+  }
+
+  .content-main {
+    justify-content: center;
+  }
+
+ }

@@ -64,7 +64,7 @@
             </ul>
         </div>
 
-        <div class="col-7 content-main" id="right">
+        <div class="col content-main" id="right">
           <div class="content-main-post">
             <h2 class="content-main-title">TEACHING & LEARNING ENVIRONMENT</h2>
             <div class="content-main-container">
