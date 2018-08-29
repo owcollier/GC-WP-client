@@ -50,6 +50,7 @@
       <div class="row">
 
         <div class="col-5 content-ul" id="left">
+            <div class="sidebar-border"></div>
             <ul class="list-unstyled" id="sidebar">
               <li><a>Teaching & Learning Environment</a></li>
               <li><a>Curriculum</a></li>

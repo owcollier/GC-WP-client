@@ -201,6 +201,9 @@ h6, .h6 {
 
 .list-unstyled {
   padding-top: 1em;
+}
+
+.sidebar-border {
   border-top: 1px solid #ffffff;
 }
 
