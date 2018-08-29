@@ -51,7 +51,7 @@ const handleHeader = () => {
   if (scroll < logoOffset + (logoHeight - 160)) {
 
     $('#masthead').removeClass('masthead-show');
-    console.log('hey', $('#headerLogo').offset().top);
+    // console.log('hey', $('#headerLogo').offset().top);
 
   } else if (scroll > logoOffset + (logoHeight - 160)) {
 
@@ -68,6 +68,16 @@ const handleScroll = (handleSidebar, handleHeader) => {
 const handleResize = () => {
 
   const scroll = $(this).scrollTop();
+
+  if (scroll < $('#left').offset().top - 120) {
+
+    $('#sidebar').css({
+      'position': 'absolute',
+      'top': '0'
+    });
+
+  }
+
   console.log('resizing!', scroll);
 
 };
