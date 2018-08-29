@@ -65,10 +65,19 @@ const handleScroll = (handleSidebar, handleHeader) => {
   handleHeader();
 };
 
+const handleResize = () => {
+
+  const scroll = $(this).scrollTop();
+  console.log('resizing!', scroll);
+
+};
+
 (function($) {
 
   $(window).on('scroll', handleSidebar);
   $(window).on('scroll', handleHeader);
+
+  $(window).on('resize', handleResize);
 
   $(document).on('click', '.footer-button', logEmail);
 	
