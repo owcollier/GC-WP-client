@@ -146,10 +146,8 @@ h6, .h6 {
  */
 
 .content-ul {
-  padding: 0;
 
   font-size: 24px;
-  border-top: 1px solid #ffffff;
 
   font-weight: 300;
 }
@@ -202,7 +200,8 @@ h6, .h6 {
 }
 
 .list-unstyled {
-  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid #ffffff;
 }
 
 .content-main-container {
