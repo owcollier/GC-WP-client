@@ -99,6 +99,27 @@ a {
   padding-left: 1.25em; */
 }
 
+
+/* Dropdown nav styles */
+
+.dropdown-nav-menu {
+  position: absolute;
+  top: 10em;
+
+  background: #ffffff;
+  border-bottom: 1px solid #5F259F;
+}
+
+.dropdown-ul {
+  padding: 4em 1em;
+  margin: 0.5em 0;
+
+}
+
+.dropdown-lie {
+  list-style-type: none;
+}
+
 /*
  * Site header tags and description in header
  */

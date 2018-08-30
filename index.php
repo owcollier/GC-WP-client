@@ -28,27 +28,44 @@
           <div class="navbar-brand navbar-brand-mobile">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-nav-brand-mobile.svg" class="navbar-brand-logo-mobile">
           </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dropdownMenu" aria-controls="dropdownMenu" aria-expanded="false" aria-label="Toggle dropdown menu">
+          <button class="navbar-toggler">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-hamburger-icon.svg" class="navbar-toggler-hamburger">
           </button>
         </nav>
       </div>
     </div>
 
-    <div class="dropdown-menu collapse col" id="dropdownMenu">
+    <div class="dropdown-nav-menu col" id="dropdownMenu">
       <div class="dropdown-contents">
-          hello
-          <!-- <ul class="dropdown-ul" id="dropdownList">
-            <li><a>Teaching & Learning Environment</a></li>
-            <li><a>Curriculum</a></li>
-            <li><a>Graduation Model</a></li>
-            <li><a>Counseling Center</a></li>
-            <li><a>Student Life</a></li>
-            <li><a>Admissions Process & Criteria</a></li>
-            <li><a>Parent & Community Participation</a></li>
-            <li><a>Music & Entertainment Education Fund</a></li>
-            <li><a>Contact Information</a></li>
-          </ul> -->
+          <ul class="dropdown-ul" id="dropdownList">
+            <li class="dropdown-li">
+              <a>Teaching & Learning Environment</a>
+            </li>
+            <li class="dropdown-li">
+              <a>Curriculum</a>
+            </li>
+            <li class="dropdown-li">
+              <a>Graduation Model</a>
+            </li>
+            <li class="dropdown-li">
+              <a>Counseling Center</a>
+            </li>
+            <li class="dropdown-li">
+              <a>Student Life</a>
+            </li>
+            <li class="dropdown-li">
+              <a>Admissions Process & Criteria</a>
+            </li>
+            <li class="dropdown-li">
+              <a>Parent & Community Participation</a>
+            </li>
+            <li class="dropdown-li">
+              <a>Music & Entertainment Education Fund</a>
+            </li>
+            <li class="dropdown-li">
+              <a>Contact Information</a>
+            </li>
+          </ul>
       </div>
     </div>
 
