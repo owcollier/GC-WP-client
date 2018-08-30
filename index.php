@@ -21,8 +21,6 @@
 
     <div class="site-masthead masthead-hidden" id="masthead" >
       <div class="container">
-        <div class="collapse">
-        </div>
         <nav class="navbar">
           <div class="navbar-brand navbar-brand-large">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-nav-brand.svg" class="navbar-brand-logo">
@@ -30,10 +28,27 @@
           <div class="navbar-brand navbar-brand-mobile">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-nav-brand-mobile.svg" class="navbar-brand-logo-mobile">
           </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dropdownMenu" aria-controls="dropdownMenu" aria-expanded="false" aria-label="Toggle dropdown menu">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-hamburger-icon.svg" class="navbar-toggler-hamburger">
           </button>
         </nav>
+      </div>
+    </div>
+
+    <div class="dropdown-menu collapse col" id="dropdownMenu">
+      <div class="dropdown-contents">
+          hello
+          <!-- <ul class="dropdown-ul" id="dropdownList">
+            <li><a>Teaching & Learning Environment</a></li>
+            <li><a>Curriculum</a></li>
+            <li><a>Graduation Model</a></li>
+            <li><a>Counseling Center</a></li>
+            <li><a>Student Life</a></li>
+            <li><a>Admissions Process & Criteria</a></li>
+            <li><a>Parent & Community Participation</a></li>
+            <li><a>Music & Entertainment Education Fund</a></li>
+            <li><a>Contact Information</a></li>
+          </ul> -->
       </div>
     </div>
 
