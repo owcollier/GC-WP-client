@@ -272,55 +272,6 @@ h6, .h6 {
   padding: 0;
 }
 
-.footer-form-flex {
-  display: flex;
-}
-
-.footer-form {
-  padding-right: 0;
-}
-
-.footer-input {
-  margin-left: 1em;
-  width: 14em;
-
-  color: #5F259F;
-
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #ffffff;
-}
-
-.footer-button {
-  margin-left: 1em;
-  padding: 2px 12px;
-
-  color: #5F259F;
-
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  border-radius: 12px;
-}
-
-.footer-button:hover {
-  cursor: pointer;
-}
-
-/* MailChimp api specific styles */
-
-.mc4wp-alert, .mc4wp-notice {
-  position: absolute;
-  bottom: 2.5em;
-
-  background: #fff;
-  padding: 4px;
-  border-radius: 12px;
-}
-
-.mc4wp-alert > p, .mc4wp-notice > p {
-  margin: 0;
-}
-
 /* custom media query styles */
 
 /* max-width media queries */
@@ -367,16 +318,6 @@ h6, .h6 {
   .content-main {
     justify-content: center;
   }
-
-  /* footer flex-box behavior needs to trigger for newsletter sign up form to maintain proper styling */
-
-  /* .footer-form-flex {
-    flex-direction: column;
-  } */
-
-  /* .footer-input {
-    margin-left: 0;
-  } */
 
 }
 
@@ -432,7 +373,7 @@ h6, .h6 {
 
 @media (max-width: 821.98px) {
 
-  .footer-opening, .footer-form {
+  .footer-opening {
     min-height: 36px;
   }
 
@@ -447,14 +388,16 @@ h6, .h6 {
 
   .footer {
     position: static;
-    height: 8em;
+    height: 5em;
   }
 
   .footer-row {
     flex-direction: column;
   }
 
-
+  .footer-label {
+    padding-left: 15px;
+  }
 
 }
 
@@ -524,12 +467,8 @@ h6, .h6 {
     font-size: 14px;
   }
 
-  .footer-opening, .footer-form {
+  .footer-opening {
     min-height: 24px;
-  }
-
-  .footer-form {
-    margin-bottom: 0.5em;
   }
 
 }
@@ -590,20 +529,6 @@ h6, .h6 {
   
   .pseudo-footer-contact-column-secondary {
     padding-left: 0;
-  }
-
-  /* custom flex-box behavior needs to trigger in footer, footer size increase, footer input left-margin can go */
-
-  .footer {
-    height: 10em;
-  }
-
-  .footer-form-flex {
-    flex-direction: column;
-  }
-
-  .footer-input {
-    margin-left: 0;
   }
 
 }
