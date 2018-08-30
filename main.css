@@ -222,10 +222,6 @@ a {
   line-height: 1.2;
 }
 
-.pseudo-footer-contact-column-primary {
-  padding-left: 0;
-}
-
 /*
  * Footer
  */
@@ -251,6 +247,7 @@ a {
 
 .footer-row a:hover {
   color: #ffffff;
+  text-decoration: none;
 }
 
 .footer-subscribe-link {
@@ -276,6 +273,10 @@ a {
 
   .navbar-toggler {
     display: none;
+  }
+
+  .pseudo-footer-contact-column-primary {
+    padding-left: 0;
   }
 
 }
