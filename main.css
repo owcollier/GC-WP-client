@@ -268,10 +268,6 @@ h6, .h6 {
 
 }
 
-/* .footer-row {
-  align-items: center;
-} */
-
 .footer-label {
   padding: 0;
 }
@@ -308,6 +304,21 @@ h6, .h6 {
 
 .footer-button:hover {
   cursor: pointer;
+}
+
+/* MailChimp api specific styles */
+
+.mc4wp-alert, .mc4wp-notice {
+  position: absolute;
+  bottom: 2.5em;
+
+  background: #fff;
+  padding: 4px;
+  border-radius: 12px;
+}
+
+.mc4wp-alert > p, .mc4wp-notice > p {
+  margin: 0;
 }
 
 /* custom media query styles */
@@ -436,7 +447,7 @@ h6, .h6 {
 
   .footer {
     position: static;
-    height: 6em;
+    height: 8em;
   }
 
   .footer-row {
@@ -584,7 +595,7 @@ h6, .h6 {
   /* custom flex-box behavior needs to trigger in footer, footer size increase, footer input left-margin can go */
 
   .footer {
-    height: 8em;
+    height: 10em;
   }
 
   .footer-form-flex {
