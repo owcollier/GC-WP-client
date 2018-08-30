@@ -79,6 +79,8 @@ const handleResize = () => {
 
 const handleHamburger = () => {
   console.log('you want fries with that?');
+  $('#dropdownMenu').addClass('dropdown-show');
+
 };
 
 (function($) {
@@ -88,7 +90,7 @@ const handleHamburger = () => {
 
   $(window).on('resize', handleResize);
 
-  $(document).on('click', '.navbar-toggler', handleHamburger)
+  $(document).on('click', '.navbar-toggler', handleHamburger);
 
   // $(document).on('click', '.footer-button', logEmail);
 	
