@@ -114,7 +114,7 @@ body.modal-open {
 
   font-size: 36px;
 
-  padding-top: 2em;
+  padding-top: 1em;
 
   transition: top 0.5s ease-in-out;
 
@@ -132,6 +132,14 @@ body.modal-open {
   margin: 0.5em 0;
 } */
 
+.dropdown-close {
+  height: 1.25em;
+}
+
+.dropdown-close-icon {
+  margin-left: 1em;
+}
+
 .dropdown-ul {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -139,10 +147,6 @@ body.modal-open {
 
 .dropdown-li {
   list-style-type: none;
-}
-
-.dropdown-close {
-  height: 1em;
 }
 
 /*

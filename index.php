@@ -37,7 +37,7 @@
 
     <div class="dropdown-nav-menu col" id="dropdownMenu">
           <div class="col-2 offset-10">
-            <button class="navbar-toggler">
+            <button class="navbar-toggler dropdown-close-icon">
               <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-dropdown-close.svg" class="dropdown-close">
             </button>
           </div>
