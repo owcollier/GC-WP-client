@@ -490,6 +490,20 @@ a {
     height: 1.25em;
   }
 
+  /* header/hero logo's margins can decrease a bit */
+
+  .header-image {
+
+    margin: 12em auto 8em auto;
+
+  }
+
+  /* header/hero description title elements should scale to avoid line breaks on mobile screens */
+
+  .site-header-title {
+    font-size: 24px;
+  }
+
 }
 
 /* custom breakpoints for mobile, specifically content in footers */
@@ -511,12 +525,12 @@ a {
   /* pseudo-footer content columns can lose the padding on either side and a bottom padding is added for primary column */
 
   .pseudo-footer-contact-column-primary {
-    padding-bottom: 8em;
+    padding-bottom: 9em;
   }
   
-  .pseudo-footer-contact-column-secondary {
+  /* .pseudo-footer-contact-column-secondary {
     padding-left: 0;
-  }
+  } */
 
 }
 
