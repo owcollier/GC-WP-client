@@ -77,12 +77,18 @@ const handleResize = () => {
 
 };
 
+const handleHamburger = () => {
+  console.log('you want fries with that?');
+};
+
 (function($) {
 
   $(window).on('scroll', handleSidebar);
   $(window).on('scroll', handleHeader);
 
   $(window).on('resize', handleResize);
+
+  $(document).on('click', '.navbar-toggler', handleHamburger)
 
   // $(document).on('click', '.footer-button', logEmail);
 	
