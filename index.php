@@ -255,10 +255,7 @@
 
           <div class="col-12 col-sm col-md-3 col-xl-5 footer-opening">Opening Fall 2019.</div>
           <div class="col footer-form-flex">
-            <div class="footer-label">Sign up to our newsletter:</div>
-            <div class="footer-form">
-              <?php echo do_shortcode('[mc4wp_form id="23"]'); ?>
-            </div>
+            <a class="footer-label" href="http://eepurl.com/dFFhiX" target="_blank">Sign up to our newsletter for the latest updates</a>
           <div>
 
         <div>
