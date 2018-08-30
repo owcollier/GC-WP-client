@@ -252,8 +252,11 @@
       <div class="container">
 
         <div class="row footer-row">
-          <div class="col-12 col-sm col-md-5 col-xl-8 footer-opening">Opening Fall 2019.</div>
-          <a class="col col-sm col-md col-xl footer-label" href="http://eepurl.com/dFFhiX" target="_blank">Sign up to our newsletter for the latest updates</a>
+          <div class="col-12 col-sm-4 col-xl-5 footer-opening">Opening Fall 2019.</div>
+          <div class="col col-sm col-xl footer-subscribe">
+            <span class="footer-subscribe-text">Sign up to our newsletter for the latest updates:</span>
+            <a class="footer-subscribe-link" href="http://eepurl.com/dFFhiX" target="_blank">Subscribe</a>
+          </div>
         <div>
 
       <div>

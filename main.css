@@ -30,6 +30,10 @@ h6, .h6 {
   color: #5F259F;
 }
 
+a {
+  color: #5F259F;
+}
+
 /* Hidden class for jQuery stuff */
 
 .hidden {
@@ -95,22 +99,8 @@ h6, .h6 {
   padding-left: 1.25em; */
 }
 
-/* Nav links */
-.blog-nav-item {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;
-  color: #cdddeb;
-}
-.blog-nav-item:hover,
-.blog-nav-item:focus {
-  color: #fff;
-  text-decoration: none;
-}
-
 /*
- * Blog name and description
+ * Site header tags and description in header
  */
 
 .site-header-text {
@@ -129,7 +119,7 @@ h6, .h6 {
 }
 
 /* 
- * Galaxy photo in header / brand icon svg
+ * brand icon svg in header
  */
 
 .header-image {
@@ -138,15 +128,6 @@ h6, .h6 {
   margin: 16em auto 10em auto;
 
   height: 40em;
-  /* margin-top: 2em;
-
-  background-image: url("./assets/images/unsplash-galaxy-image.jpg");
-  background-size: cover;
-
-  background-color: #c93867;
-  background-blend-mode: hue;
-
-  height: 20em; */
 }
 
 
@@ -268,9 +249,18 @@ h6, .h6 {
 
 }
 
-.footer-label {
-  padding: 0;
+.footer-row a:hover {
+  color: #ffffff;
 }
+
+.footer-subscribe-link {
+  margin-left: 0.5em;
+  padding: 4px;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+}
+
+
 
 /* custom media query styles */
 
@@ -395,10 +385,6 @@ h6, .h6 {
     flex-direction: column;
   }
 
-  .footer-label {
-    padding-left: 15px;
-  }
-
 }
 
 @media (max-width: 767.98px) {
@@ -505,7 +491,7 @@ h6, .h6 {
 
 }
 
-/* custom breakpoint for mobile, specifically content in footers */
+/* custom breakpoints for mobile, specifically content in footers */
 
 @media (max-width: 489.98px) {
 
@@ -529,6 +515,22 @@ h6, .h6 {
   
   .pseudo-footer-contact-column-secondary {
     padding-left: 0;
+  }
+
+}
+
+@media (max-width: 406.98px) {
+
+  .footer {
+    height: 8em;
+  }
+
+  .footer-subscribe {
+    line-height: 2;
+  }
+
+  .footer-subscribe-link {
+    margin-left: 0;
   }
 
 }
