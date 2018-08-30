@@ -34,6 +34,10 @@ a {
   color: #5F259F;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 /* Hidden class for jQuery stuff */
 
 .hidden {
@@ -111,6 +115,8 @@ a {
   font-size: 36px;
 
   padding-top: 2em;
+
+  transition: top 0.5s ease-in-out;
 
   background: #ffffff;
   border-bottom: 1px solid #5F259F;
