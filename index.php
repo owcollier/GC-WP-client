@@ -36,8 +36,10 @@
     </div>
 
     <div class="dropdown-nav-menu col" id="dropdownMenu">
-      <div class="dropdown-contents">
-          <ul class="dropdown-ul" id="dropdownList">
+          <div class="col-2 offset-10">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-dropdown-close.svg" class="dropdown-close">
+          </div>
+          <ul class="dropdown-ul col-10 offset-1" id="dropdownList">
             <li class="dropdown-li">
               <a>Teaching & Learning Environment</a>
             </li>
@@ -66,7 +68,6 @@
               <a>Contact Information</a>
             </li>
           </ul>
-      </div>
     </div>
 
     <div class="container">

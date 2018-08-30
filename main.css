@@ -103,21 +103,35 @@ a {
 /* Dropdown nav styles */
 
 .dropdown-nav-menu {
-  position: absolute;
-  top: 10em;
+  position: fixed;
+  top: 0;
+
+  z-index: 2000;
+
+  font-size: 36px;
+
+  padding-top: 4em;
 
   background: #ffffff;
   border-bottom: 1px solid #5F259F;
 }
 
-.dropdown-ul {
+/* .dropdown-ul {
   padding: 4em 1em;
   margin: 0.5em 0;
+} */
 
+.dropdown-ul {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
-.dropdown-lie {
+.dropdown-li {
   list-style-type: none;
+}
+
+.dropdown-close {
+  height: 1em;
 }
 
 /*
