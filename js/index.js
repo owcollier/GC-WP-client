@@ -27,27 +27,100 @@ const handleSidebarHighlight = () => {
 
   const bottomMain = $('#contentBlockEight').offset().top - ($('#contentBlockEight').height());
 
-  // console.log('scroll position:', scroll);
-  // console.log('contentBlockOne height:', contentBlockOne);
+  // let currentFocus = {
+  //   focus: ''
+  // };
 
   if (scroll > scrollPositions.contentBlockOne && scroll < scrollPositions.contentBlockTwo) {
-    console.log('ContentBlockOne!');
+
+    // if (currentFocus.focus !== '#sidebarOne') {
+    //   $(currentFocus.focus).removeClass('sidebar-focus');
+    //   currentFocus.focus = '#sidebarOne';
+    // }
+
+    $('.content-sidebar-li').removeClass('sidebar-focus');
+    $('#sidebarOne').addClass('sidebar-focus');
+
   } else if (scroll > scrollPositions.contentBlockTwo && scroll < scrollPositions.contentBlockThree) {
-    console.log('ContentBlockTwo!');
+
+    // if (currentFocus.focus !== '#sidebarTwo') {
+    //   $(currentFocus.focus).removeClass('sidebar-focus');
+    //   currentFocus.focus = '#sidebarTwo';
+    // }
+
+    $('.content-sidebar-li').removeClass('sidebar-focus');
+    $('#sidebarTwo').addClass('sidebar-focus');
+
   } else if (scroll > scrollPositions.contentBlockThree && scroll < scrollPositions.contentBlockFour) {
-    console.log('ContentBlockThree!');
+
+    // if (currentFocus !== '#sidebarThree') {
+    //   $(currentFocus).removeClass('sidebar-focus');
+    //   currentFocus = '#sidebarThree';
+    // }
+
+    $('.content-sidebar-li').removeClass('sidebar-focus');
+    $('#sidebarThree').addClass('sidebar-focus');
+
   } else if (scroll > scrollPositions.contentBlockFour && scroll < scrollPositions.contentBlockFive) {
-    console.log('ContentBlockFour!');
+
+    // if (currentFocus !== '#sidebarFour') {
+    //   $(currentFocus).removeClass('sidebar-focus');
+    //   currentFocus = '#sidebarFour';
+    // }
+
+    $('.content-sidebar-li').removeClass('sidebar-focus');
+    $('#sidebarFour').addClass('sidebar-focus');
+
   } else if (scroll > scrollPositions.contentBlockFive && scroll < scrollPositions.contentBlockSix) {
-    console.log('ContentBlockFive!');
+
+    // if (currentFocus !== '#sidebarFive') {
+    //   $(currentFocus).removeClass('sidebar-focus');
+    //   currentFocus = '#sidebarFive';
+    // }
+
+    $('.content-sidebar-li').removeClass('sidebar-focus');
+    $('#sidebarFive').addClass('sidebar-focus');
+
   } else if (scroll > scrollPositions.contentBlockSix && scroll < scrollPositions.contentBlockSeven) {
-    console.log('ContentBlockSix!');
+
+    // if (currentFocus !== '#sidebarSix') {
+    //   $(currentFocus).removeClass('sidebar-focus');
+    //   currentFocus = '#sidebarSix';
+    // }
+
+    $('.content-sidebar-li').removeClass('sidebar-focus');
+    $('#sidebarSix').addClass('sidebar-focus');
+
   } else if (scroll > scrollPositions.contentBlockSeven && scroll < scrollPositions.contentBlockEight) {
-    console.log('ContentBlockSeven!');
+
+    // if (currentFocus !== '#sidebarSeven') {
+    //   $(currentFocus).removeClass('sidebar-focus');
+    //   currentFocus = '#sidebarSeven';
+    // }
+
+    $('.content-sidebar-li').removeClass('sidebar-focus');
+    $('#sidebarSeven').addClass('sidebar-focus');
+
   } else if (scroll > scrollPositions.contentBlockEight && scroll < bottomMain) {
-    console.log('ContentBlockEight!');
+
+    // if (currentFocus !== '#sidebarEight') {
+    //   $(currentFocus).removeClass('sidebar-focus');
+    //   currentFocus = '#sidebarEight';
+    // }
+
+    $('.content-sidebar-li').removeClass('sidebar-focus');
+    $('#sidebarEight').addClass('sidebar-focus');
+
   } else if (scroll > bottomMain) {
-    console.log('contact!');
+
+    // if (currentFocus !== '#sidebarContact') {
+    //   $(currentFocus).removeClass('sidebar-focus');
+    //   currentFocus = '#sidebarContact';
+    // }
+
+    $('.content-sidebar-li').removeClass('sidebar-focus');
+    $('#sidebarContact').addClass('sidebar-focus');
+
   }
   
   // else if (scroll + $(window).height() / $(document).height() === 0) {
