@@ -85,12 +85,14 @@ const handleDropdown = (e) => {
   if ($('#dropdownMenu').hasClass('dropdown-show')) {
 
     $('#dropdownMenu').removeClass('dropdown-show');
+    $('html').removeClass('modal-open');
 
   } else {
 
     $('#dropdownMenu').addClass('dropdown-show');
+    $('html').addClass('modal-open');
   }
-  
+
 };
 
 (function($) {

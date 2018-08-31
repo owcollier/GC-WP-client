@@ -34,7 +34,7 @@ a {
   color: #5F259F;
 }
 
-body.modal-open {
+.modal-open {
   overflow: hidden;
 }
 
@@ -147,6 +147,11 @@ body.modal-open {
 
 .dropdown-li {
   list-style-type: none;
+}
+
+.dropdown-li a:hover {
+  cursor: pointer;
+  color: #D0DF00 !important;
 }
 
 /*
