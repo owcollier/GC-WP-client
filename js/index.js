@@ -10,21 +10,11 @@ const handleSidebarNavigation = (event) => {
 
 };
 
-const handleSidebarHighlight = () => {
+const handleSidebarHighlight = (event) => {
   const scroll =$(this).scrollTop();
+  const scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
 
-  const scrollPositions = {
-    contentBlockOne: $('#contentBlockOne').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockTwo: $('#contentBlockTwo').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockThree: $('#contentBlockThree').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockFour: $('#contentBlockFour').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockFive: $('#contentBlockFive').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockSix: $('#contentBlockSix').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockSeven: $('#contentBlockSeven').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockEight: $('#contentBlockEight').offset().top - $('#contentBlockOne').height() - $('#masthead').height()
-  };
-
-  const bottomMain = $('#contentBlockEight').offset().top - ($('#contentBlockEight').height());
+  const scrollPositions = event.data.scrollPositions;
 
   // let currentFocus = {
   //   focus: ''
@@ -100,7 +90,7 @@ const handleSidebarHighlight = () => {
     $('.content-sidebar-li').removeClass('sidebar-focus');
     $('#sidebarSeven').addClass('sidebar-focus');
 
-  } else if (scroll > scrollPositions.contentBlockEight && scroll < bottomMain) {
+  } else if (scroll > scrollPositions.contentBlockEight && scrollBottom !== 0) {
 
     // if (currentFocus !== '#sidebarEight') {
     //   $(currentFocus).removeClass('sidebar-focus');
@@ -110,7 +100,7 @@ const handleSidebarHighlight = () => {
     $('.content-sidebar-li').removeClass('sidebar-focus');
     $('#sidebarEight').addClass('sidebar-focus');
 
-  } else if (scroll > bottomMain) {
+  } else if (scrollBottom === 0) {
 
     // if (currentFocus !== '#sidebarContact') {
     //   $(currentFocus).removeClass('sidebar-focus');
@@ -212,7 +202,22 @@ const handleDropdown = (event) => {
 
 (function($) {
 
-  $(window).on('scroll', handleSidebarHighlight);
+  const STORE = {
+    scrollPositions: {
+      contentBlockOne: $('#contentBlockOne').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+      contentBlockTwo: $('#contentBlockTwo').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+      contentBlockThree: $('#contentBlockThree').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+      contentBlockFour: $('#contentBlockFour').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+      contentBlockFive: $('#contentBlockFive').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+      contentBlockSix: $('#contentBlockSix').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+      contentBlockSeven: $('#contentBlockSeven').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+      contentBlockEight: $('#contentBlockEight').offset().top - $('#contentBlockOne').height() - $('#masthead').height()
+    }
+  };
+
+  // $('#contentBlockEight').offset().top - $('#contentBlockEight').height()
+
+  $(window).on('scroll', STORE, handleSidebarHighlight);
   $(window).on('scroll', handleSidebar);
   $(window).on('scroll', handleHeader);
 
