@@ -89,7 +89,7 @@
 
         <div class="col-5 content-ul" id="left">
             <div class="sidebar-border"></div>
-            <ul class="list-unstyled" id="sidebar">
+            <ul class="content-sidebar-list list-unstyled" id="sidebar">
               <li><a>Teaching & Learning Environment</a></li>
               <li><a>Curriculum</a></li>
               <li><a>Graduation Model</a></li>
@@ -103,7 +103,7 @@
         </div>
 
         <div class="col content-main" id="right">
-          <div class="content-main-post">
+          <div class="content-main-post" id="contentBlockOne">
             <h2 class="content-main-title">TEACHING & LEARNING ENVIRONMENT</h2>
             <div class="content-main-container">
               <ul class="ul-primary">

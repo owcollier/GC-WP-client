@@ -11,6 +11,20 @@
 //   console.log(email);
 // };
 
+const handleSidebarHighlight = () => {
+  const scroll =$(this).scrollTop();
+
+  const contentBlockOne = $('#contentBlockOne').offset().top - $('#contentBlockOne').height() - $('#masthead').height();
+
+  // console.log('scroll position:', scroll);
+  // console.log('contentBlockOne height:', contentBlockOne);
+
+  if (scroll > contentBlockOne) {
+    console.log('I\'ve passed the mark!');
+  }
+
+};
+
 const handleSidebar = () => {
 
   const sidebarLength = $('#left').height() - $('#sidebar').height() + $('#left').offset().top;
@@ -97,6 +111,7 @@ const handleDropdown = (e) => {
 
 (function($) {
 
+  $(window).on('scroll', handleSidebarHighlight);
   $(window).on('scroll', handleSidebar);
   $(window).on('scroll', handleHeader);
 
