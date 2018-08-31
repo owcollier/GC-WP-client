@@ -383,6 +383,12 @@ a {
     height: 1.5em;
   }
 
+  /* dropdown font-size decreases */
+
+  .dropdown-nav-menu {
+    font-size: 30px;
+  }
+
   /* header logo size decreases */
 
   .header-image {
@@ -462,6 +468,14 @@ a {
   .navbar-toggler {
     font-size: 1rem;
   }
+
+  /* dropdown nav menu font-size decreases */
+
+  .dropdown-nav-menu {
+    font-size: 24px;
+  }
+
+  /* header image size decreases */
 
   .header-image {
     height: 22em;
@@ -545,6 +559,22 @@ a {
     height: 1.25em;
   }
 
+  /* dropdown margins, padding, and font-size decreases */
+
+  .dropdown-ul {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .dropdown-nav-menu {
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  .dropdown-close-icon {
+    margin-left: auto;
+  }
+
   /* header/hero logo's margins can decrease a bit */
 
   .header-image {
@@ -601,6 +631,14 @@ a {
 
   .footer-subscribe-link {
     margin-left: 0;
+  }
+
+}
+
+@media (max-width: 374.98px) {
+
+  .dropdown-nav-menu {
+    font-size: 14px;
   }
 
 }
