@@ -1,15 +1,14 @@
 /* global $*/ 
 'use strict';
 
-// const dingDong = (event) => {
-//   console.log('DONG!');
-// };
+const handleSidebarNavigation = (event) => {
 
-// const logEmail = (event) => {
-//   const email = $('#formEmail').val();
-//   $('#formEmail').val('');
-//   console.log(email);
-// };
+  const el = $(event.target);
+  const id = el.closest('li').attr('id');
+
+  console.log(id);
+
+};
 
 const handleSidebarHighlight = () => {
   const scroll =$(this).scrollTop();
@@ -191,12 +190,10 @@ const handleResize = () => {
 
   }
 
-  console.log('resizing!', scroll);
-
 };
 
-const handleDropdown = (e) => {
-  e.preventDefault();
+const handleDropdown = (event) => {
+  event.preventDefault();
 
   console.log('you want fries with that?');
 
@@ -222,7 +219,6 @@ const handleDropdown = (e) => {
   $(window).on('resize', handleResize);
 
   $(document).on('click', '.navbar-toggler', handleDropdown);
-
-  // $(document).on('click', '.footer-button', logEmail);
+  $(document).on('click', '.sidebar-link', handleSidebarNavigation);
 	
 })( jQuery );

@@ -91,31 +91,31 @@
             <div class="sidebar-border"></div>
             <ul class="content-sidebar-list list-unstyled" id="sidebar">
               <li class="content-sidebar-li" id="sidebarOne">
-                <a>Teaching & Learning Environment</a>
+                <a class="sidebar-link">Teaching & Learning Environment</a>
               </li>
               <li class="content-sidebar-li" id="sidebarTwo">
-                <a>Curriculum</a>
+                <a class="sidebar-link">Curriculum</a>
               </li>
               <li class="content-sidebar-li" id="sidebarThree">
-                <a>Graduation Model</a>
+                <a class="sidebar-link">Graduation Model</a>
               </li>
               <li class="content-sidebar-li" id="sidebarFour">
-                <a>Counseling Center</a>
+                <a class="sidebar-link">Counseling Center</a>
               </li>
               <li class="content-sidebar-li" id="sidebarFive">
-                <a>Student Life</a>
+                <a class="sidebar-link">Student Life</a>
               </li>
               <li class="content-sidebar-li" id="sidebarSix">
-                <a>Admissions Process & Criteria</a>
+                <a class="sidebar-link">Admissions Process & Criteria</a>
               </li>
               <li class="content-sidebar-li" id="sidebarSeven">
-                <a>Parent & Community Participation</a>
+                <a class="sidebar-link">Parent & Community Participation</a>
               </li>
               <li class="content-sidebar-li" id="sidebarEight">
-                <a>Music & Entertainment Education Fund</a>
+                <a class="sidebar-link">Music & Entertainment Education Fund</a>
               </li>
               <li class="content-sidebar-li" id="sidebarContact">
-                <a>Contact Information</a>
+                <a class="sidebar-link">Contact Information</a>
               </li>
             </ul>
         </div>
