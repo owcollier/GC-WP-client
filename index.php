@@ -90,15 +90,33 @@
         <div class="col-5 content-ul" id="left">
             <div class="sidebar-border"></div>
             <ul class="content-sidebar-list list-unstyled" id="sidebar">
-              <li><a>Teaching & Learning Environment</a></li>
-              <li><a>Curriculum</a></li>
-              <li><a>Graduation Model</a></li>
-              <li><a>Counseling Center</a></li>
-              <li><a>Student Life</a></li>
-              <li><a>Admissions Process & Criteria</a></li>
-              <li><a>Parent & Community Participation</a></li>
-              <li><a>Music & Entertainment Education Fund</a></li>
-              <li><a>Contact Information</a></li>
+              <li id="sidebarOne">
+                <a>Teaching & Learning Environment</a>
+              </li>
+              <li id="sidebarTwo">
+                <a>Curriculum</a>
+              </li>
+              <li id="sidebarThree">
+                <a>Graduation Model</a>
+              </li>
+              <li id="sidebarFour">
+                <a>Counseling Center</a>
+              </li>
+              <li id="sidebarFive">
+                <a>Student Life</a>
+              </li>
+              <li id="sidebarSix">
+                <a>Admissions Process & Criteria</a>
+              </li>
+              <li id="sidebarSeven">
+                <a>Parent & Community Participation</a>
+              </li>
+              <li id="sidebarEight">
+                <a>Music & Entertainment Education Fund</a>
+              </li>
+              <li id="sidebarContact">
+                <a>Contact Information</a>
+              </li>
             </ul>
         </div>
 

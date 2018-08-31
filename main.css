@@ -187,7 +187,7 @@ a {
 
 
 /*
- * Content ul sidebar
+ * Content sidebar
  */
 
 .content-ul {
@@ -201,6 +201,20 @@ a {
   cursor: pointer;
   color: #ffffff !important;
 }
+
+.content-sidebar-list {
+  padding-top: 1em;
+}
+
+.sidebar-border {
+  border-top: 1px solid #ffffff;
+}
+
+.sidebar-focus {
+  color: #ffffff;
+}
+
+/* Main content column */
 
 .content-main {
   font-size: 18px;
@@ -222,14 +236,6 @@ a {
 .content-main-title {
   margin-top: 0.5em;
   font-size: 36px;
-}
-
-.content-sidebar-list {
-  padding-top: 1em;
-}
-
-.sidebar-border {
-  border-top: 1px solid #ffffff;
 }
 
 .content-main-container {
