@@ -119,7 +119,7 @@
             </div>
           </div>
 
-          <div class="content-main-post">
+          <div class="content-main-post" id="contentBlockTwo">
             <h2 class="content-main-title">CURRICULUM</h2>
             <div class="content-main-container">
               <ul class="ul-primary">
@@ -138,7 +138,7 @@
             </div>
           </div>
 
-          <div class="content-main-post">
+          <div class="content-main-post" id="contentBlockThree">
             <h2 class="content-main-title">GRADUATION MODEL</h2>
             <div class="content-main-container">
               <ul class="ul-primary">
@@ -156,7 +156,7 @@
             </div>
           </div>
 
-          <div class="content-main-post">
+          <div class="content-main-post" id="contentBlockFour">
             <h2 class="content-main-title">COUNSELING CENTER</h2>
             <div class="content-main-container">
               <ul class="ul-primary">
@@ -168,7 +168,7 @@
             </div>
           </div>
 
-          <div class="content-main-post">
+          <div class="content-main-post" id="contentBlockFive">
             <h2 class="content-main-title">STUDENT LIFE</h2>
             <div class="content-main-container">
               <ul class="ul-primary">
@@ -184,7 +184,7 @@
             </div>
           </div>
 
-          <div class="content-main-post">
+          <div class="content-main-post" id="contentBlockSix">
             <h2 class="content-main-title">ADMISSION PROCESS & CRITERIA</h2>
             <div class="content-main-container">
               <ul class="ul-primary">
@@ -200,7 +200,7 @@
             </div> 
           </div>
 
-          <div class="content-main-post">
+          <div class="content-main-post" id="contentBlockSeven">
             <h2 class="content-main-title">PARENT & COMMUNITY PARTICIPATION</h2>
             <div class="content-main-container">
               <ul class="ul-primary">
@@ -212,7 +212,7 @@
             </div>
           </div>
 
-          <div class="content-main-post">
+          <div class="content-main-post" id="contentBlockEight">
             <h2 class="content-main-title">MUSIC & ENTERTAINMENT EDUCATION FUND</h2>
             <span class="content-main-subtitle">(Community Partner)</span>
             <div class="content-main-container">

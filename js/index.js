@@ -14,14 +14,45 @@
 const handleSidebarHighlight = () => {
   const scroll =$(this).scrollTop();
 
-  const contentBlockOne = $('#contentBlockOne').offset().top - $('#contentBlockOne').height() - $('#masthead').height();
+  const scrollPositions = {
+    contentBlockOne: $('#contentBlockOne').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockTwo: $('#contentBlockTwo').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockThree: $('#contentBlockThree').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockFour: $('#contentBlockFour').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockFive: $('#contentBlockFive').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockSix: $('#contentBlockSix').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockSeven: $('#contentBlockSeven').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockEight: $('#contentBlockEight').offset().top - $('#contentBlockOne').height() - $('#masthead').height()
+  };
+
+  const bottomMain = $('#contentBlockEight').offset().top - ($('#contentBlockEight').height());
 
   // console.log('scroll position:', scroll);
   // console.log('contentBlockOne height:', contentBlockOne);
 
-  if (scroll > contentBlockOne) {
-    console.log('I\'ve passed the mark!');
+  if (scroll > scrollPositions.contentBlockOne && scroll < scrollPositions.contentBlockTwo) {
+    console.log('ContentBlockOne!');
+  } else if (scroll > scrollPositions.contentBlockTwo && scroll < scrollPositions.contentBlockThree) {
+    console.log('ContentBlockTwo!');
+  } else if (scroll > scrollPositions.contentBlockThree && scroll < scrollPositions.contentBlockFour) {
+    console.log('ContentBlockThree!');
+  } else if (scroll > scrollPositions.contentBlockFour && scroll < scrollPositions.contentBlockFive) {
+    console.log('ContentBlockFour!');
+  } else if (scroll > scrollPositions.contentBlockFive && scroll < scrollPositions.contentBlockSix) {
+    console.log('ContentBlockFive!');
+  } else if (scroll > scrollPositions.contentBlockSix && scroll < scrollPositions.contentBlockSeven) {
+    console.log('ContentBlockSix!');
+  } else if (scroll > scrollPositions.contentBlockSeven && scroll < scrollPositions.contentBlockEight) {
+    console.log('ContentBlockSeven!');
+  } else if (scroll > scrollPositions.contentBlockEight && scroll < bottomMain) {
+    console.log('ContentBlockEight!');
+  } else if (scroll > bottomMain) {
+    console.log('contact!');
   }
+  
+  // else if (scroll + $(window).height() / $(document).height() === 0) {
+  //   console.log('Contact!');
+  // }
 
 };
 
