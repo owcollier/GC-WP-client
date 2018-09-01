@@ -146,7 +146,7 @@ a {
 }
 
 .dropdown-ul a {
-  transition: color 0.8s ease-in-out;
+  transition: color 0.25s ease-in-out;
 }
 
 .dropdown-ul a:hover {
@@ -203,7 +203,7 @@ a {
 }
 
 .content-ul a {
-  transition: color 0.8s ease-in-out;
+  transition: color 0.25s ease-in-out;
 }
 
 .content-ul a:hover {
