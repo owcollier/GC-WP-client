@@ -145,13 +145,17 @@ a {
   padding-bottom: 2em;
 }
 
-.dropdown-li {
-  list-style-type: none;
+.dropdown-ul a {
+  transition: color 0.8s ease-in-out;
 }
 
-.dropdown-li a:hover {
+.dropdown-ul a:hover {
   cursor: pointer;
   color: #D0DF00 !important;
+}
+
+.dropdown-li {
+  list-style-type: none;
 }
 
 /*
@@ -199,7 +203,7 @@ a {
 }
 
 .content-ul a {
-  transition: color 0.5s ease-in-out;
+  transition: color 0.8s ease-in-out;
 }
 
 .content-ul a:hover {
