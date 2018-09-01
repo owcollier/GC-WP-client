@@ -1,6 +1,69 @@
 /* global $*/ 
 'use strict';
 
+const handleHeader = () => {
+
+  const scroll = $(this).scrollTop();
+  const logoOffset = $('#headerLogo').offset().top;
+  const logoHeight = $('#headerLogo').height();
+  
+  if (scroll < logoOffset + (logoHeight - 160)) {
+
+    $('#masthead').removeClass('masthead-show');
+    // console.log('hey', $('#headerLogo').offset().top);
+
+  } else if (scroll > logoOffset + (logoHeight - 160)) {
+
+    $('#masthead').addClass('masthead-show');
+
+  }
+};
+
+const handleResize = () => {
+
+  const scroll = $(this).scrollTop();
+
+  if (scroll < $('#left').offset().top - 120) {
+
+    $('#sidebar').css({
+      'position': 'absolute',
+      'top': '0'
+    });
+
+  }
+};
+
+const handleSidebar = () => {
+
+  const sidebarLength = $('#left').height() - $('#sidebar').height() + $('#left').offset().top;
+  const scroll = $(this).scrollTop();
+  const height = $('#sidebar').height() + 'px';
+
+  if (scroll < $('#left').offset().top - 120) {
+
+    $('#sidebar').css({
+      'position': 'absolute',
+      'top': '0'
+    });
+
+  } else if (scroll > sidebarLength) {
+
+    $('#sidebar').css({
+      'position': 'absolute',
+      'bottom': '0',
+      'top': 'auto'
+    });
+
+  } else {
+
+    $('#sidebar').css({
+      'position': 'fixed',
+      'top': '120px',
+      'height': height
+    });
+  }
+};
+
 const handleSidebarNavigation = (event) => {
 
   const scrollPositions = {
@@ -61,10 +124,9 @@ const handleSidebarNavigation = (event) => {
   default:
     $('html, body').animate({
       scrollTop: $(document).height()
-    }, 500);
-    
+    }, 500); 
   }
-  
+
 };
 
 const handleSidebarHighlight = () => {
@@ -129,71 +191,6 @@ const handleSidebarHighlight = () => {
     $('#sidebarContact').addClass('sidebar-focus');
 
   }
-
-};
-
-const handleSidebar = () => {
-
-  const sidebarLength = $('#left').height() - $('#sidebar').height() + $('#left').offset().top;
-  const scroll = $(this).scrollTop();
-  const height = $('#sidebar').height() + 'px';
-
-  if (scroll < $('#left').offset().top - 120) {
-
-    $('#sidebar').css({
-      'position': 'absolute',
-      'top': '0'
-    });
-
-  } else if (scroll > sidebarLength) {
-
-    $('#sidebar').css({
-      'position': 'absolute',
-      'bottom': '0',
-      'top': 'auto'
-    });
-
-  } else {
-
-    $('#sidebar').css({
-      'position': 'fixed',
-      'top': '120px',
-      'height': height
-    });
-  }
-};
-
-const handleHeader = () => {
-
-  const scroll = $(this).scrollTop();
-  const logoOffset = $('#headerLogo').offset().top;
-  const logoHeight = $('#headerLogo').height();
-  
-  if (scroll < logoOffset + (logoHeight - 160)) {
-
-    $('#masthead').removeClass('masthead-show');
-    // console.log('hey', $('#headerLogo').offset().top);
-
-  } else if (scroll > logoOffset + (logoHeight - 160)) {
-
-    $('#masthead').addClass('masthead-show');
-
-  }
-};
-
-const handleResize = () => {
-
-  const scroll = $(this).scrollTop();
-
-  if (scroll < $('#left').offset().top - 120) {
-
-    $('#sidebar').css({
-      'position': 'absolute',
-      'top': '0'
-    });
-
-  }
-
 };
 
 const handleDropdown = (event) => {
@@ -211,6 +208,88 @@ const handleDropdown = (event) => {
     $('#dropdownMenu').addClass('dropdown-show');
     $('html').addClass('modal-open');
   }
+};
+
+const handleDropdownNavigation = (event) => {
+
+  const scrollPositions = {
+    contentBlockOne: $('#contentBlockOne').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockTwo: $('#contentBlockTwo').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockThree: $('#contentBlockThree').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockFour: $('#contentBlockFour').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockFive: $('#contentBlockFive').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockSix: $('#contentBlockSix').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockSeven: $('#contentBlockSeven').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockEight: $('#contentBlockEight').offset().top - $('#contentBlockOne').height() - $('#masthead').height()
+  };
+  
+  const el = $(event.target);
+  const id = el.closest('li').attr('id');
+
+  switch (id) {
+  case 'dropdownOne':
+    $('#dropdownMenu').removeClass('dropdown-show');
+    $('html').removeClass('modal-open');
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockOne + 50
+    }, 500);
+    break;
+  case 'dropdownTwo':
+    $('#dropdownMenu').removeClass('dropdown-show');
+    $('html').removeClass('modal-open');
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockTwo + 50
+    }, 500);
+    break;
+  case 'dropdownThree':
+    $('#dropdownMenu').removeClass('dropdown-show');
+    $('html').removeClass('modal-open');
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockThree + 50
+    }, 500);
+    break;
+  case 'dropdownFour':
+    $('#dropdownMenu').removeClass('dropdown-show');
+    $('html').removeClass('modal-open');
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockFour + 50
+    }, 500);
+    break;
+  case 'dropdownFive':
+    $('#dropdownMenu').removeClass('dropdown-show');
+    $('html').removeClass('modal-open');
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockFive + 50
+    }, 500);
+    break;
+  case 'dropdownSix':
+    $('#dropdownMenu').removeClass('dropdown-show');
+    $('html').removeClass('modal-open');
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockSix + 50
+    }, 500);
+    break;
+  case 'dropdownSeven':
+    $('#dropdownMenu').removeClass('dropdown-show');
+    $('html').removeClass('modal-open');
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockSeven + 50
+    }, 500);
+    break;
+  case 'dropdownEight':
+    $('#dropdownMenu').removeClass('dropdown-show');
+    $('html').removeClass('modal-open');
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockEight + 50
+    }, 500);
+    break;
+  default:
+    $('#dropdownMenu').removeClass('dropdown-show');
+    $('html').removeClass('modal-open');
+    $('html, body').animate({
+      scrollTop: $(document).height()
+    }, 500); 
+  }
 
 };
 
@@ -226,6 +305,6 @@ const handleDropdown = (event) => {
 
   $(document).on('click', '.navbar-toggler', handleDropdown);
   $(document).on('click', '.sidebar-link', handleSidebarNavigation);
-  
+  $(document).on('click', '.dropdown-link', handleDropdownNavigation);
 	
 })( jQuery );

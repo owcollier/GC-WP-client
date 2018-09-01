@@ -14,6 +14,8 @@
 
     <!-- Custom styles for this template -->
     <link href="<?php echo get_bloginfo('template_directory'); ?>/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/favicon.ico">
+
 
   </head>
 
@@ -42,31 +44,31 @@
             </button>
           </div>
           <ul class="dropdown-ul col col-sm-10 offset-sm-1" id="dropdownList">
-            <li class="dropdown-li dropdown-link">
-              <a>Teaching & Learning Environment</a>
-            </li>
             <li class="dropdown-li" id="dropdownOne">
-              <a class="dropdown-link">Curriculum</a>
+              <a class="dropdown-link">Teaching & Learning Environment</a>
             </li>
             <li class="dropdown-li" id="dropdownTwo">
-              <a class="dropdown-link">Graduation Model</a>
+              <a class="dropdown-link">Curriculum</a>
             </li>
             <li class="dropdown-li" id="dropdownThree">
-              <a class="dropdown-link">Counseling Center</a>
+              <a class="dropdown-link">Graduation Model</a>
             </li>
             <li class="dropdown-li" id="dropdownFour">
-              <a class="dropdown-link">Student Life</a>
+              <a class="dropdown-link">Counseling Center</a>
             </li>
             <li class="dropdown-li" id="dropdownFive">
-              <a class="dropdown-link">Admissions Process & Criteria</a>
+              <a class="dropdown-link">Student Life</a>
             </li>
             <li class="dropdown-li" id="dropdownSix">
-              <a class="dropdown-link">Parent & Community Participation</a>
+              <a class="dropdown-link">Admissions Process & Criteria</a>
             </li>
             <li class="dropdown-li" id="dropdownSeven">
-              <a class="dropdown-link">Music & Entertainment Education Fund</a>
+              <a class="dropdown-link">Parent & Community Participation</a>
             </li>
             <li class="dropdown-li" id="dropdownEight">
+              <a class="dropdown-link">Music & Entertainment Education Fund</a>
+            </li>
+            <li class="dropdown-li" id="dropdownContact">
               <a class="dropdown-link">Contact Information</a>
             </li>
           </ul>
