@@ -1,13 +1,62 @@
-/*
- * Globals
- */
+/* font-face */
+
+@font-face {
+  font-family: "SharpSans-Bold";
+  src:  url("./assets/fonts/SharpSans-Bold.eot");
+  src:  url("./assets/fonts/SharpSans-Bold.woff2") format("woff2"),
+        url("./assets/fonts/SharpSans-Bold.woff") format("woff")
+}
+
+@font-face {
+  font-family: "SharpSans-Book";
+  src:  url("./assets/fonts/SharpSans-Book.eot");
+  src:  url("./assets/fonts/SharpSans-Book.woff2") format("woff2"),
+        url("./assets/fonts/SharpSans-Book.woff") format("woff")
+}
+
+@font-face {
+  font-family: "SharpSans-ExtraBold";
+  src:  url("./assets/fonts/SharpSans-ExtraBold.eot");
+  src:  url("./assets/fonts/SharpSans-ExtraBold.woff2") format("woff2"),
+        url("./assets/fonts/SharpSans-ExtraBold.woff") format("woff")
+}
+
+@font-face {
+  font-family: "SharpSans-Light";
+  src:  url("./assets/fonts/SharpSans-Light.eot");
+  src:  url("./assets/fonts/SharpSans-Light.woff2") format("woff2"),
+        url("./assets/fonts/SharpSans-Light.woff") format("woff")
+}
+
+@font-face {
+  font-family: "SharpSans-Medium";
+  src:  url("./assets/fonts/SharpSans-Medium.eot");
+  src:  url("./assets/fonts/SharpSans-Medium.woff2") format("woff2"),
+        url("./assets/fonts/SharpSans-Medium.woff") format("woff")
+}
+
+@font-face {
+  font-family: "SharpSans-Semibold";
+  src:  url("./assets/fonts/SharpSans-Semibold.eot");
+  src:  url("./assets/fonts/SharpSans-Semibold.woff2") format("woff2"),
+        url("./assets/fonts/SharpSans-Semibold.woff") format("woff")
+}
+
+@font-face {
+  font-family: "SharpSans-Thin";
+  src:  url("./assets/fonts/SharpSans-Thin.eot");
+  src:  url("./assets/fonts/SharpSans-Thin.woff2") format("woff2"),
+        url("./assets/fonts/SharpSans-Thin.woff") format("woff")
+}
+
+/* globals */
 
  html, body {
   overflow-x: hidden;
  }
 
  body {
-  font-family: sans-serif;
+  font-family: 'SharpSans-Semibold', Fallback, sans-serif;
   color: #5F259F;
   background-color: #D0DF00;
 
@@ -26,7 +75,9 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 0;
-  font-weight: normal;
+
+  font-family: "SharpSans-Book";
+
   color: #5F259F;
 }
 
