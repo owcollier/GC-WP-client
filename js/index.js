@@ -3,11 +3,59 @@
 
 const handleSidebarNavigation = (event) => {
 
+  const scrollPositions = event.data.scrollPositions;
+  const scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
   const el = $(event.target);
   const id = el.closest('li').attr('id');
 
-  console.log(id);
-
+  switch (id) {
+  case 'sidebarOne':
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockOne + 50
+    }, 500);
+    break;
+  case 'sidebarTwo':
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockTwo + 50
+    }, 500);
+    break;
+  case 'sidebarThree':
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockThree + 50
+    }, 500);
+    break;
+  case 'sidebarFour':
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockFour + 50
+    }, 500);
+    break;
+  case 'sidebarFive':
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockFive + 50
+    }, 500);
+    break;
+  case 'sidebarSix':
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockSix + 50
+    }, 500);
+    break;
+  case 'sidebarSeven':
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockSeven + 50
+    }, 500);
+    break;
+  case 'sidebarEight':
+    $('html, body').animate({
+      scrollTop: scrollPositions.contentBlockEight + 50
+    }, 500);
+    break;
+  default:
+    $('html, body').animate({
+      scrollTop: $(document).height()
+    }, 500);
+    
+  }
+  
 };
 
 const handleSidebarHighlight = (event) => {
@@ -224,6 +272,6 @@ const handleDropdown = (event) => {
   $(window).on('resize', handleResize);
 
   $(document).on('click', '.navbar-toggler', handleDropdown);
-  $(document).on('click', '.sidebar-link', handleSidebarNavigation);
+  $(document).on('click', '.sidebar-link', STORE, handleSidebarNavigation);
 	
 })( jQuery );
