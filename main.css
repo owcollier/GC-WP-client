@@ -217,11 +217,13 @@ a {
   padding-top: 3.5em;
   padding-bottom: 7em;
 }
+
 .site-header-title {
   margin-bottom: 0;
   font-size: 60px;
   line-height: 1;
 }
+
 .site-description {
 
   font-family: "SharpSans-Book";
@@ -564,10 +566,6 @@ a {
 
   .content-main-post {
     font-size: 18px;
-  }
-
-  .ul-secondary li {
-    line-height: 1.25;
   }
 
   /* pseudo footer content needs to scale down at this breakpoint */
