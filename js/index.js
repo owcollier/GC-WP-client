@@ -3,8 +3,17 @@
 
 const handleSidebarNavigation = (event) => {
 
-  const scrollPositions = event.data.scrollPositions;
-  const scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
+  const scrollPositions = {
+    contentBlockOne: $('#contentBlockOne').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockTwo: $('#contentBlockTwo').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockThree: $('#contentBlockThree').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockFour: $('#contentBlockFour').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockFive: $('#contentBlockFive').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockSix: $('#contentBlockSix').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockSeven: $('#contentBlockSeven').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockEight: $('#contentBlockEight').offset().top - $('#contentBlockOne').height() - $('#masthead').height()
+  };
+  
   const el = $(event.target);
   const id = el.closest('li').attr('id');
 
@@ -58,11 +67,20 @@ const handleSidebarNavigation = (event) => {
   
 };
 
-const handleSidebarHighlight = (event) => {
+const handleSidebarHighlight = () => {
   const scroll =$(this).scrollTop();
   const scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
 
-  const scrollPositions = event.data.scrollPositions;
+  const scrollPositions = {
+    contentBlockOne: $('#contentBlockOne').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockTwo: $('#contentBlockTwo').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockThree: $('#contentBlockThree').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockFour: $('#contentBlockFour').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockFive: $('#contentBlockFive').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockSix: $('#contentBlockSix').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockSeven: $('#contentBlockSeven').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
+    contentBlockEight: $('#contentBlockEight').offset().top - $('#contentBlockOne').height() - $('#masthead').height()
+  };
 
   // let currentFocus = {
   //   focus: ''
@@ -250,28 +268,15 @@ const handleDropdown = (event) => {
 
 (function($) {
 
-  const STORE = {
-    scrollPositions: {
-      contentBlockOne: $('#contentBlockOne').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-      contentBlockTwo: $('#contentBlockTwo').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-      contentBlockThree: $('#contentBlockThree').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-      contentBlockFour: $('#contentBlockFour').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-      contentBlockFive: $('#contentBlockFive').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-      contentBlockSix: $('#contentBlockSix').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-      contentBlockSeven: $('#contentBlockSeven').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-      contentBlockEight: $('#contentBlockEight').offset().top - $('#contentBlockOne').height() - $('#masthead').height()
-    }
-  };
-
   // $('#contentBlockEight').offset().top - $('#contentBlockEight').height()
 
-  $(window).on('scroll', STORE, handleSidebarHighlight);
+  $(window).on('scroll', handleSidebarHighlight);
   $(window).on('scroll', handleSidebar);
   $(window).on('scroll', handleHeader);
 
   $(window).on('resize', handleResize);
 
   $(document).on('click', '.navbar-toggler', handleDropdown);
-  $(document).on('click', '.sidebar-link', STORE, handleSidebarNavigation);
+  $(document).on('click', '.sidebar-link', handleSidebarNavigation);
 	
 })( jQuery );
