@@ -477,7 +477,7 @@ a {
 
   .site-header-title {
     font-size: 48px;
-    line-height: 1.1;
+    line-height: 1.25;
   }
 
   /* header text paragraph font size decreases */
@@ -486,10 +486,10 @@ a {
     font-size: 24px;
   }
 
-  /* main column text line height decreases */
+  /* footer font-size needs to decrease, size of container increased to correctly stack elements when needed */
 
-  .content-main {
-    line-height: 1.25;
+  .footer {
+    font-size: 14px;
   }
 
 }
@@ -511,11 +511,7 @@ a {
 
   .footer {
     position: static;
-    height: 5em;
-  }
-
-  .footer-row {
-    flex-direction: column;
+    height: 3.5em;
   }
 
 }
@@ -592,6 +588,11 @@ a {
 
   .footer {
     font-size: 14px;
+    height: 5em;
+  }
+
+  .footer-row {
+    flex-direction: column;
   }
 
   .footer-opening {
@@ -660,6 +661,11 @@ a {
     font-size: 24px;
   }
 
+  /* pseudo-footer line height needs to change */
+  .pseudo-footer-contact-column {
+    line-height: 1.25;
+  }
+
 }
 
 /* custom breakpoints for mobile, specifically content in footers */
@@ -670,6 +676,7 @@ a {
 
   .pseudo-footer {
     height: 18em;
+    
   }
 
   /* pseudo-footer content columns can now stack vertically */
