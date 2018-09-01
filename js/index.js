@@ -125,7 +125,7 @@ const handleSidebarHighlight = () => {
 
   } else if (scrollBottom === 0) {
 
-    $('.content-sidebar-li').removeClass('sidebar-focus');
+    $('.content-sidebar-li').removeClass('sidebar-focus'); 
     $('#sidebarContact').addClass('sidebar-focus');
 
   }
@@ -226,5 +226,6 @@ const handleDropdown = (event) => {
 
   $(document).on('click', '.navbar-toggler', handleDropdown);
   $(document).on('click', '.sidebar-link', handleSidebarNavigation);
+  
 	
 })( jQuery );

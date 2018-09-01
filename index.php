@@ -42,32 +42,32 @@
             </button>
           </div>
           <ul class="dropdown-ul col col-sm-10 offset-sm-1" id="dropdownList">
-            <li class="dropdown-li">
+            <li class="dropdown-li dropdown-link">
               <a>Teaching & Learning Environment</a>
             </li>
-            <li class="dropdown-li">
-              <a>Curriculum</a>
+            <li class="dropdown-li" id="dropdownOne">
+              <a class="dropdown-link">Curriculum</a>
             </li>
-            <li class="dropdown-li">
-              <a>Graduation Model</a>
+            <li class="dropdown-li" id="dropdownTwo">
+              <a class="dropdown-link">Graduation Model</a>
             </li>
-            <li class="dropdown-li">
-              <a>Counseling Center</a>
+            <li class="dropdown-li" id="dropdownThree">
+              <a class="dropdown-link">Counseling Center</a>
             </li>
-            <li class="dropdown-li">
-              <a>Student Life</a>
+            <li class="dropdown-li" id="dropdownFour">
+              <a class="dropdown-link">Student Life</a>
             </li>
-            <li class="dropdown-li">
-              <a>Admissions Process & Criteria</a>
+            <li class="dropdown-li" id="dropdownFive">
+              <a class="dropdown-link">Admissions Process & Criteria</a>
             </li>
-            <li class="dropdown-li">
-              <a>Parent & Community Participation</a>
+            <li class="dropdown-li" id="dropdownSix">
+              <a class="dropdown-link">Parent & Community Participation</a>
             </li>
-            <li class="dropdown-li">
-              <a>Music & Entertainment Education Fund</a>
+            <li class="dropdown-li" id="dropdownSeven">
+              <a class="dropdown-link">Music & Entertainment Education Fund</a>
             </li>
-            <li class="dropdown-li">
-              <a>Contact Information</a>
+            <li class="dropdown-li" id="dropdownEight">
+              <a class="dropdown-link">Contact Information</a>
             </li>
           </ul>
     </div>
