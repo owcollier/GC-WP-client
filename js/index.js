@@ -213,14 +213,14 @@ const handleDropdown = (event) => {
 const handleDropdownNavigation = (event) => {
 
   const scrollPositions = {
-    contentBlockOne: $('#contentBlockOne').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockTwo: $('#contentBlockTwo').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockThree: $('#contentBlockThree').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockFour: $('#contentBlockFour').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockFive: $('#contentBlockFive').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockSix: $('#contentBlockSix').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockSeven: $('#contentBlockSeven').offset().top - $('#contentBlockOne').height() - $('#masthead').height(),
-    contentBlockEight: $('#contentBlockEight').offset().top - $('#contentBlockOne').height() - $('#masthead').height()
+    contentBlockOne: $('#contentBlockOne').offset().top - $('#masthead').height() - 100,
+    contentBlockTwo: $('#contentBlockTwo').offset().top - $('#masthead').height() - 100,
+    contentBlockThree: $('#contentBlockThree').offset().top - $('#masthead').height() - 100,
+    contentBlockFour: $('#contentBlockFour').offset().top - $('#masthead').height() - 100,
+    contentBlockFive: $('#contentBlockFive').offset().top - $('#masthead').height() - 100,
+    contentBlockSix: $('#contentBlockSix').offset().top - $('#masthead').height() - 100,
+    contentBlockSeven: $('#contentBlockSeven').offset().top - $('#masthead').height() - 100,
+    contentBlockEight: $('#contentBlockEight').offset().top - $('#masthead').height() - 100
   };
   
   const el = $(event.target);
