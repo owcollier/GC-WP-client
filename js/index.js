@@ -84,47 +84,47 @@ const handleSidebarNavigation = (event) => {
   case 'sidebarOne':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockOne + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'sidebarTwo':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockTwo + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'sidebarThree':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockThree + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'sidebarFour':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockFour + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'sidebarFive':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockFive + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'sidebarSix':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockSix + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'sidebarSeven':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockSeven + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'sidebarEight':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockEight + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   default:
     $('html, body').animate({
       scrollTop: $(document).height()
-    }, 500); 
+    }, 500, 'linear'); 
   }
 
 };
@@ -232,63 +232,63 @@ const handleDropdownNavigation = (event) => {
     $('html').removeClass('modal-open');
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockOne + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'dropdownTwo':
     $('#dropdownMenu').removeClass('dropdown-show');
     $('html').removeClass('modal-open');
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockTwo + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'dropdownThree':
     $('#dropdownMenu').removeClass('dropdown-show');
     $('html').removeClass('modal-open');
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockThree + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'dropdownFour':
     $('#dropdownMenu').removeClass('dropdown-show');
     $('html').removeClass('modal-open');
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockFour + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'dropdownFive':
     $('#dropdownMenu').removeClass('dropdown-show');
     $('html').removeClass('modal-open');
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockFive + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'dropdownSix':
     $('#dropdownMenu').removeClass('dropdown-show');
     $('html').removeClass('modal-open');
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockSix + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'dropdownSeven':
     $('#dropdownMenu').removeClass('dropdown-show');
     $('html').removeClass('modal-open');
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockSeven + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   case 'dropdownEight':
     $('#dropdownMenu').removeClass('dropdown-show');
     $('html').removeClass('modal-open');
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockEight + 50
-    }, 500);
+    }, 500, 'linear');
     break;
   default:
     $('#dropdownMenu').removeClass('dropdown-show');
     $('html').removeClass('modal-open');
     $('html, body').animate({
       scrollTop: $(document).height()
-    }, 500); 
+    }, 500, 'linear'); 
   }
 
 };
