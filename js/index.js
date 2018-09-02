@@ -305,6 +305,6 @@ const handleDropdownNavigation = (event) => {
 
   $(document).on('click', '.navbar-toggler', handleDropdown);
   $(document).on('click', '.sidebar-link', handleSidebarNavigation);
-  $(document).on('click', '.dropdown-link', handleDropdownNavigation);
+  $(document).on('click touch', '.dropdown-link', handleDropdownNavigation);
 	
 })( jQuery );
