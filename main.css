@@ -60,10 +60,12 @@
   color: #5F259F;
   background-color: #D0DF00;
 
-  background-image: url("./assets/images/alexis-brown-82988-unsplash_chartreuse.jpg");
-  background-size: cover;
+  background: url("./assets/images/alexis-brown-82988-unsplash_chartreuse.jpg") no-repeat center center fixed;
 
-  background-attachment:fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1, .h1,
