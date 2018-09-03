@@ -19,39 +19,31 @@ const handleHeader = () => {
   }
 };
 
-const handleResize = () => {
+// const handleResize = () => {
 
-  const scroll = $(this).scrollTop();
+//   const scroll = $(this).scrollTop();
 
-  if (scroll < $('#left').offset().top - 120) {
+//   if (scroll < $('#left').offset().top - 120) {
 
-    $('#sidebar').css({
-      'position': 'absolute',
-      'top': '0'
-    });
+//     $('#sidebar').css({
+//       'position': 'absolute',
+//       'top': '0'
+//     });
 
-  }
-};
+//   }
+// };
 
 const handleSidebar = () => {
 
   const sidebarLength = $('#left').height() - $('#sidebar').height() + $('#left').offset().top;
   const scroll = $(this).scrollTop();
-  const height = $('#sidebar').height() + 'px';
+  // const height = $('#sidebar').height() + 'px';
 
   if (scroll < $('#left').offset().top - 120) {
 
     $('#sidebar').css({
       'position': 'absolute',
       'top': '0'
-    });
-
-  } else if (scroll > sidebarLength) {
-
-    $('#sidebar').css({
-      'position': 'absolute',
-      'bottom': '0',
-      'top': 'auto'
     });
 
   } else {
@@ -195,8 +187,6 @@ const handleSidebarHighlight = () => {
 const handleDropdown = (event) => {
   event.preventDefault();
 
-  console.log('you want fries with that?');
-
   if ($('#dropdownMenu').hasClass('dropdown-show')) {
 
     $('#dropdownMenu').removeClass('dropdown-show');
@@ -294,14 +284,14 @@ const handleDropdownNavigation = (event) => {
 
 (function($) {
   
-  // $(window).on('scroll', handleSidebarHighlight);
-  // $(window).on('scroll', handleSidebar);
-  // $(window).on('scroll', handleHeader);
-  $(window).on('resize', handleResize);
+  // $(window).on('resize', handleResize);
+  $(window).on('scroll', handleSidebar);
+  $(window).on('scroll', handleSidebarHighlight);
+  $(window).on('scroll', handleHeader);
 
-  $(window).on('scroll', _.throttle(handleSidebarHighlight, 500));
-  $(window).on('scroll', _.throttle(handleSidebar, 100));
-  $(window).on('scroll', _.throttle(handleHeader, 100));
+  // $(window).on('scroll', _.throttle(handleSidebarHighlight, 200));
+  // // $(window).on('scroll', _.throttle(handleSidebar, 200));
+  // $(window).on('scroll', _.throttle(handleHeader, 200));
 
   $(document).on('click', '.navbar-toggler', handleDropdown);
   $(document).on('click', '.sidebar-link', handleSidebarNavigation);
