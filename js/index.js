@@ -1,4 +1,4 @@
-/* global $*/ 
+/* global $, jQuery, _*/ 
 'use strict';
 
 const handleHeader = () => {
@@ -19,19 +19,19 @@ const handleHeader = () => {
   }
 };
 
-const handleResize = () => {
+// const handleResize = () => {
 
-  const scroll = $(this).scrollTop();
+//   const scroll = $(this).scrollTop();
 
-  if (scroll < $('#left').offset().top - 120) {
+//   if (scroll < $('#left').offset().top - 120) {
 
-    $('#sidebar').css({
-      'position': 'absolute',
-      'top': '0'
-    });
+//     $('#sidebar').css({
+//       'position': 'absolute',
+//       'top': '0'
+//     });
 
-  }
-};
+//   }
+// };
 
 // const handleSidebar = () => {
 
@@ -305,7 +305,7 @@ const handleDropdownNavigation = (event) => {
   // $(window).on('scroll', _.throttle(handleSidebar, 100));
   $(window).on('scroll', _.throttle(handleHeader, 100));
 
-  $(window).on('resize', _.throttle(handleResize, 100));
+  // $(window).on('resize', _.throttle(handleResize, 100));
 
   $(document).on('click', '.navbar-toggler', handleDropdown);
   $(document).on('click', '.sidebar-link', handleSidebarNavigation);

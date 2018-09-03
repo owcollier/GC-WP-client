@@ -59,13 +59,6 @@
   font-family: 'SharpSans-Semibold', Fallback, sans-serif;
   color: #5F259F;
   background-color: #D0DF00;
-
-  /* background: url("./assets/images/alexis-brown-82988-unsplash_chartreuse.jpg") no-repeat center center fixed;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
 }
 
 h1, .h1,
@@ -306,7 +299,7 @@ a {
 
 #sidebar {
   position: sticky;
-  top: 0;
+  top: 6em;
 }
 
 .content-ul {
