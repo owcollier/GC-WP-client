@@ -276,8 +276,6 @@
               <br><br>
               <span>www.gablescrest.org</span>
               <br>
-              <span>+1 305 496 3237</span>
-              <br>
               <span>info@gablescrest.org</span>
               <br>
               <span>@gablescrest</span>
