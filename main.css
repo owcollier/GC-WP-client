@@ -60,12 +60,12 @@
   color: #5F259F;
   background-color: #D0DF00;
 
-  background: url("./assets/images/alexis-brown-82988-unsplash_chartreuse.jpg") no-repeat center center fixed;
+  /* background: url("./assets/images/alexis-brown-82988-unsplash_chartreuse.jpg") no-repeat center center fixed;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 
 h1, .h1,
@@ -94,6 +94,55 @@ a {
 .hidden {
   display: none;
 }
+
+/* carousel background */
+
+.carousel-item:nth-child(1) {
+  background: url(./assets/images/alexey-ruban-103990-unsplash_chartreuse.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-item:nth-child(2) {
+  background: url(./assets/images/alexis-brown-82988-unsplash_chartreuse.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-item:nth-child(3) {
+  background: url(./assets/images/jelleke-vanooteghem-554406-unsplash_chartreuse.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-item:nth-child(4) {
+  background: url(./assets/images/rawpixel-586684-unsplash_chartreuse.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-item:nth-child(5) {
+  background: url(./assets/images/stefan-stefancik-257625-unsplash_chartreuse.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel {
+  z-index: -99;
+}
+
+.carousel .carousel-item {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
 
 /*
  * Masthead for nav

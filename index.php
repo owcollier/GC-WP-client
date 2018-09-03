@@ -21,6 +21,17 @@
 
   <body>
 
+    <div class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
+      <div class="carousel-inner">
+        <div class="carousel-item active"></div>
+        <div class="carousel-item"></div>
+        <div class="carousel-item"></div>
+        <div class="carousel-item"></div>
+        <div class="carousel-item"></div>
+      </div>
+    </div>
+
+
     <div class="site-masthead masthead-hidden" id="masthead" >
       <div class="container">
         <nav class="navbar">
@@ -31,7 +42,7 @@
             <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-nav-brand-mobile.svg" class="navbar-brand-logo-mobile">
           </div>
           <button class="navbar-toggler">
-            <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-hamburger-icon.svg" class="navbar-toggler-hamburger">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/icons/GC-hamburger.svg" class="navbar-toggler-hamburger">
           </button>
         </nav>
       </div>

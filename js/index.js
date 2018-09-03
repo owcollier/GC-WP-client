@@ -294,9 +294,7 @@ const handleDropdownNavigation = (event) => {
 };
 
 (function($) {
-
-  // $('#contentBlockEight').offset().top - $('#contentBlockEight').height()
-
+  
   $(window).on('scroll', handleSidebarHighlight);
   $(window).on('scroll', handleSidebar);
   $(window).on('scroll', handleHeader);
