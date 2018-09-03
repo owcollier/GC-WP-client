@@ -19,50 +19,49 @@ const handleHeader = () => {
   }
 };
 
-// const handleResize = () => {
+const handleResize = () => {
 
-//   const scroll = $(this).scrollTop();
+  const scroll = $(this).scrollTop();
 
-//   if (scroll < $('#left').offset().top - 120) {
+  if (scroll < $('#left').offset().top - 120) {
 
-//     $('#sidebar').css({
-//       'position': 'absolute',
-//       'top': '0'
-//     });
+    $('#sidebar').css({
+      'position': 'absolute',
+      'top': '0'
+    });
 
-//   }
-// };
+  }
+};
 
-// const handleSidebar = () => {
+const handleSidebar = () => {
 
-//   const sidebarLength = $('#left').height() - $('#sidebar').height() + $('#left').offset().top;
-//   const scroll = $(this).scrollTop();
-//   const height = $('#sidebar').height() + 'px';
+  const sidebarLength = $('#left').height() - $('#sidebar').height() + $('#left').offset().top;
+  const scroll = $(this).scrollTop();
+  const height = $('#sidebar').height() + 'px';
 
-//   if (scroll < $('#left').offset().top - 120) {
+  if (scroll < $('#left').offset().top - 120) {
 
-//     $('#sidebar').css({
-//       'position': 'absolute',
-//       'top': '0'
-//     });
+    $('#sidebar').css({
+      'position': 'absolute',
+      'top': '0'
+    });
 
-//   } else if (scroll > sidebarLength) {
+  } else if (scroll > sidebarLength) {
 
-//     $('#sidebar').css({
-//       'position': 'absolute',
-//       'bottom': '0',
-//       'top': 'auto'
-//     });
+    $('#sidebar').css({
+      'position': 'absolute',
+      'bottom': '0',
+      'top': 'auto'
+    });
 
-//   } else {
+  } else {
 
-//     $('#sidebar').css({
-//       'position': 'fixed',
-//       'top': '120px',
-//       'height': height
-//     });
-//   }
-// };
+    $('#sidebar').css({
+      'position': 'fixed',
+      'top': '120px'
+    });
+  }
+};
 
 const handleSidebarNavigation = (event) => {
 
@@ -84,47 +83,47 @@ const handleSidebarNavigation = (event) => {
   case 'sidebarOne':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockOne + 50
-    }, 500, 'linear');
+    }, 500);
     break;
   case 'sidebarTwo':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockTwo + 50
-    }, 500, 'linear');
+    }, 500);
     break;
   case 'sidebarThree':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockThree + 50
-    }, 500, 'linear');
+    }, 500);
     break;
   case 'sidebarFour':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockFour + 50
-    }, 500, 'linear');
+    }, 500);
     break;
   case 'sidebarFive':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockFive + 50
-    }, 500, 'linear');
+    }, 500);
     break;
   case 'sidebarSix':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockSix + 50
-    }, 500, 'linear');
+    }, 500);
     break;
   case 'sidebarSeven':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockSeven + 50
-    }, 500, 'linear');
+    }, 500);
     break;
   case 'sidebarEight':
     $('html, body').animate({
       scrollTop: scrollPositions.contentBlockEight + 50
-    }, 500, 'linear');
+    }, 500);
     break;
   default:
     $('html, body').animate({
       scrollTop: $(document).height()
-    }, 500, 'linear'); 
+    }, 500); 
   }
 
 };
@@ -298,14 +297,11 @@ const handleDropdownNavigation = (event) => {
   // $(window).on('scroll', handleSidebarHighlight);
   // $(window).on('scroll', handleSidebar);
   // $(window).on('scroll', handleHeader);
-
-  // $(window).on('resize', handleResize);
+  $(window).on('resize', handleResize);
 
   $(window).on('scroll', _.throttle(handleSidebarHighlight, 100));
-  // $(window).on('scroll', _.throttle(handleSidebar, 100));
+  $(window).on('scroll', _.throttle(handleSidebar, 100));
   $(window).on('scroll', _.throttle(handleHeader, 100));
-
-  // $(window).on('resize', _.throttle(handleResize, 100));
 
   $(document).on('click', '.navbar-toggler', handleDropdown);
   $(document).on('click', '.sidebar-link', handleSidebarNavigation);

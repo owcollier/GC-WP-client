@@ -51,9 +51,9 @@
 
 /* globals */
 
- /* html, body {
+ html, body {
   overflow-x: hidden;
- } */
+ }
 
  body {
   font-family: 'SharpSans-Semibold', Fallback, sans-serif;
@@ -89,7 +89,7 @@ a {
 }
 
 /* carousel background */
-
+/* 
 .carousel-item:nth-child(1) {
   background: url(./assets/images/alexey-ruban-103990-unsplash_chartreuse.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -141,7 +141,7 @@ a {
 
 .carousel-item {
   transition: transform 0.5s ease, opacity 0.5s ease;
-}
+} */
 
 
 /*
@@ -297,10 +297,10 @@ a {
  * Content sidebar
  */
 
-#sidebar {
+/* #sidebar {
   position: sticky;
   top: 6em;
-}
+} */
 
 .content-ul {
 

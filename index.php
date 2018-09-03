@@ -21,7 +21,7 @@
 
   <body>
 
-    <div class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
+    <!-- <div class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
       <div class="carousel-inner">
         <div class="carousel-item active"></div>
         <div class="carousel-item"></div>
@@ -29,7 +29,7 @@
         <div class="carousel-item"></div>
         <div class="carousel-item"></div>
       </div>
-    </div>
+    </div> -->
 
 
     <div class="site-masthead masthead-hidden" id="masthead" >
