@@ -51,9 +51,9 @@
 
 /* globals */
 
- html, body {
+ /* html, body {
   overflow-x: hidden;
- }
+ } */
 
  body {
   font-family: 'SharpSans-Semibold', Fallback, sans-serif;
@@ -303,6 +303,11 @@ a {
 /*
  * Content sidebar
  */
+
+#sidebar {
+  position: sticky;
+  top: 0;
+}
 
 .content-ul {
 
