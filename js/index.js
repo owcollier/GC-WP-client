@@ -299,7 +299,7 @@ const handleDropdownNavigation = (event) => {
   // $(window).on('scroll', handleHeader);
   $(window).on('resize', handleResize);
 
-  $(window).on('scroll', _.throttle(handleSidebarHighlight, 100));
+  $(window).on('scroll', _.throttle(handleSidebarHighlight, 500));
   $(window).on('scroll', _.throttle(handleSidebar, 100));
   $(window).on('scroll', _.throttle(handleHeader, 100));
 
